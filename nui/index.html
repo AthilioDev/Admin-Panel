@@ -1,0 +1,1076 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">    
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+		<link href="css/css.css" rel="stylesheet" type="text/css"/>
+		<link href="css/format.css" rel="stylesheet" type="text/css"/>
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+	</head>
+	<body>
+
+	<div class="container">
+		
+		<div class="lado">
+			<div class="title-part">
+				<div class="iconeLado"><i class="far fa-bars" aria-hidden="true"></i></div>
+				<div class="textLado">Painel Admin</div>
+				<div class="textLado2">Painel voce tem acesso ao controle dos jogadores / cidade</div>
+			</div>
+			<div class="separadorLado"></div>
+			<button class="butaoLado" onclick="pagina('inicio')" style="margin-top: 5%;"><i class="fad fa-home IconLado"></i>Pagina Inicial</button>
+			<button class="butaoLado" onclick="pagina('players')"><i class="fad fa-users IconLado"></i>Jogadores</button>
+			<button class="butaoLado" onclick="pagina('baufac')"><i class="fad fa-treasure-chest IconLado"></i>Baus</button>
+			<button class="butaoLado" onclick="pagina('itens')"><i class="fad fa-backpack IconLado"></i>Itens</button>
+			<button class="butaoLado" onclick="pagina('carros')"><i class="fad fa-cars IconLado"></i>Carros</button>
+			<button class="butaoLado" onclick="pagina('gerenciar')"><i class="fad fa-user-tag IconLado"></i>Gerenciar</button>
+			<button class="butaoLado" onclick="pagina('punicoes')"><i class="fad fa-hammer IconLado"></i>Punições</button>
+			<button class="butaoLado" style="margin-top: 70%;"><i class="fad fa-sign-out IconLado2"></i>Sair</button>
+		</div>
+
+		<div class="cima">
+			<div class="cima-box">
+				<i class="far fa-bell icon"></i>
+				<div class="quantidade-notify">0</div>
+				<img id="img1" src="https://cdn.discordapp.com/attachments/916428083278516264/968699428800200765/unknown.png" alt="">
+				<div class="nome-personagem" id="name1" >Eduardo Silva</div>
+				<i class="fas fa-angle-down icon2"></i>
+			</div>
+		</div>
+
+		<div class="baixo" id="pagina-inicio" >
+			<div class="title">Pagina (Inicio)</div>
+			<div class="aviso-box">
+				<div class="title-2">Bem-vindo, <ss id="name2" class="detalhes">Eduardo Silva</ss></div>
+				<div class="desc">Este e o nosso novo painel administrador voce aqui tera total acesso as informaçoes da cidade / servidor.</div>
+				<img src="./images/profilepicture.png" alt="">
+			</div>
+
+			<div class="contador" style="margin-left: 5%;">
+				
+				<div class="barra1"></div>
+				<div class="barra2"></div>
+
+				<div class="title-contador">Players</div>
+				<div class="pulse"></div>
+				<div class="info-contador" id="players-online">133</div>
+
+			</div>
+
+			<div class="contador">
+				
+				<div class="barra1" style="background: rgb(228, 111, 33);"></div>
+				<div class="barra2" style="background: rgb(228, 111, 33);"></div>
+
+				<div class="title-contador">Staff</div>
+				<div class="pulse" style="margin-left: 65%;"></div>
+				<div class="info-contador" style="color: rgb(228, 111, 33);" id="staff-online">16</div>
+
+			</div>
+
+			<div class="contador">
+				
+				<div class="barra1" style="background: rgb(33, 150, 228);"></div>
+				<div class="barra2" style="background: rgb(33, 150, 228);"></div>
+
+				<div class="title-contador">Policia</div>
+				<div class="pulse" style="margin-left: 69%;"></div>
+				<div class="info-contador" style="color: rgb(33, 150, 228);" id="policia-online">32</div>
+
+			</div>
+
+			<div class="contador">
+				
+				<div class="barra1" style="background: rgb(228, 33, 33);"></div>
+				<div class="barra2" style="background: rgb(228, 33, 33);"></div>
+
+				<div class="title-contador">Ilegal</div>
+				<div class="pulse" style="margin-left: 66.5%;"></div>
+				<div class="info-contador" style="color: rgb(228, 33, 33);" id="ilegal-online">60</div>
+
+			</div>
+
+			<div class="logs-box">
+				<img id="opacity" src="./images/profilepicture.png" alt="">
+				<div class="title-log-box">Logs Painel</div>
+
+				<div class="logs-box2">
+
+				</div>
+				
+			</div>
+
+			<div class="teleport-box">
+				<div class="title-teleport-box">Teleportes</div>
+				<div class="telport-box-2">
+					<div class="item-teleport">
+						<div class="nome-teleort"><i class="fas fa-angle-right" style="margin-right: 10px; font-size: 11px;"></i>Franca</div>
+						<i class="fas fa-trash icontrash"></i>
+					</div>
+					<div class="item-teleport">
+						<div class="nome-teleort"><i class="fas fa-angle-right" style="margin-right: 10px; font-size: 11px;"></i>Franca</div>
+						<i class="fas fa-trash icontrash"></i>
+					</div>
+					<div class="item-teleport">
+						<div class="nome-teleort"><i class="fas fa-angle-right" style="margin-right: 10px; font-size: 11px;"></i>Franca</div>
+						<i class="fas fa-trash icontrash"></i>
+					</div>
+					<div class="item-teleport">
+						<div class="nome-teleort"><i class="fas fa-angle-right" style="margin-right: 10px; font-size: 11px;"></i>Franca</div>
+						<i class="fas fa-trash icontrash"></i>
+					</div>
+				</div>
+				<div class="adicionar-teleport" onclick="openCoord()">Adicionar</div>
+			</div>
+
+		</div>
+
+		<div class="baixo" id="pagina-controle" style="display: none;"> 
+			<div class="title">Pagina (Usuarios)</div>
+			<div class="aviso-box">
+				<div class="title-2">Bem-vindo, <ss id="name3" class="detalhes">Eduardo Silva</ss></div>
+				<div class="desc">Esta pagina do painel voce pode ter acesso a todos os usuarios online na cidade assim podendo fazer alteraçoes na conta dos usuarios.</div>
+				<img src="./images/profilepicture.png" alt="">
+			</div>
+
+			<div class="search-bar">
+				<i class="fad fa-search"></i>
+				<input type="text" id="searchInput" class="searchplayers" placeholder="Pesquisar..">
+			</div>
+
+			<div class="controle-box">
+
+				<div class="controle-header">
+					<div class="item-header" style="width: 8%;">ID<i class="fas fa-angle-down icon6"></i></div>
+					<div class="item-header" style="width: 30%;">Nome<i class="fas fa-angle-down icon6"></i></div>
+					<div class="item-header" style="width: 22%;">Status<i class="fas fa-angle-down icon6"></i></div>
+					<div class="item-header" style="width: 38%;">Acoes<i class="fas fa-angle-down icon6"></i></div>
+				</div>
+
+				<div class="box-controle">
+					<div class="item-controle">
+						<div class="item-header" style="width: 8%;">332</div>
+						<div class="item-header2">
+							<img src="./images/profilepicture.png" alt="">
+							<div class="nome-controle">Eduardo Silva</div>
+						</div>
+
+						<div class="item-header3">
+							<div class="status">ONLINE</div>
+						</div>
+
+						<div class="item-header4">
+							<i class="far fa-hammer iconheader" style="margin-left: 38%;"></i>
+							<i class="far fa-exclamation-circle iconheader"></i>
+						</div>
+
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+
+		<div class="baixo" id="pagina-punicoes" style="display: none;"> 
+			<div class="title">Pagina (Punicoes)</div>
+			<div class="aviso-box">
+				<div class="title-2">Bem-vindo, <ss id="name4">Eduardo Silva</ss></div>
+				<div class="desc">Voce esta na pagina de punicoes voce podera ver ou retirar todos os banimentos e Advertencias.</div>
+				<img src="./images/profilepicture.png" alt="">
+			</div>
+
+			<div class="controle-box">
+
+				<div class="controle-header">
+					<div class="item-header" style="width: 8%;">ID<i class="fas fa-angle-down icon6"></i></div>
+					<div class="item-header" style="width: 30%;">Nome<i class="fas fa-angle-down icon6"></i></div>
+					<div class="item-header" style="width: 22%;">Status<i class="fas fa-angle-down icon6"></i></div>
+					<div class="item-header" style="width: 38%;">Acoes<i class="fas fa-angle-down icon6"></i></div>
+				</div>
+
+				<div class="box-punicoes">
+					
+
+				</div>
+			</div>
+
+		</div>
+
+		<div class="baixo" id="pagina-pegarItens" style="display: none;">
+			<div class="title">Pagina (Itens)</div>
+			<div class="aviso-box">
+				<div class="title-2">Bem-vindo, <ss id="name5" class="detalhes">Eduardo Silva</ss></div>
+				<div class="desc">Opa aqui voce pode pegar itens para voce ou entregar a outros usuarios para realizar reembolsos.</div>
+				<img src="./images/profilepicture.png" alt="">
+			</div>
+
+			<div class="search-bar" style="left: 26%;">
+				<i class="fad fa-search"></i>
+				<input type="text" id="searchInput" class="searchitens" placeholder="Pesquisar..">
+			</div>
+
+			<div class="itens-overflow">
+
+				<div class="item-inventario">
+					<div class="nome-inventario">Mochila</div>
+					<img id="img-2" src="https://cdn.discordapp.com/attachments/546810663385694258/970117884896493638/mochila.png" alt="">
+					<div class="quantidade-item" style="color: transparent;">1x</div>
+					<div class="barra1"></div>
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="baixo" id="pagina-SetCarros" style="display: none;">
+			<div class="title">Pagina (Garagem)</div>
+			<div class="aviso-box">
+				<div class="title-2">Bem-vindo, <ss id="name6" class="detalhes">Eduardo Silva</ss></div>
+				<div class="desc">Opa aqui voce pode setar carros para voce ou para outros jogadores.</div>
+				<img id="img-1" src="./images/profilepicture.png" alt="">
+			</div>
+
+			<div class="search-bar" style="left: 31%;">
+				<i class="fad fa-search"></i>
+				<input type="text" id="searchInput" class="searchgaragem" placeholder="Pesquisar..">
+			</div>
+
+			<div class="garagem-overflow">
+
+				<div class="item-garagem" onclick="FormatConfirmGaragem(this)" data-name="${key.name}" data-index="${key.carro}" data-linkgaragem="${key.linkgaragem}">
+					<div class="nome-garagem">Adder</div>
+					<img id="img-2" src="http://localhost/cars/adder.png" alt="">
+					<div class="quantidade-garagem" style="color: transparent;">1x</div>
+					<div class="barra1"></div>
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="baixo" id="pagina-Anuncios" style="display: none;">
+			<div class="title">Pagina (Anuncios)</div>
+			<div class="aviso-box">
+				<div class="title-2">Bem-vindo, <ss id="name7">Eduardo Silva</ss></div>
+				<div class="desc">Opa aqui voce pode realizar anuncios para os jogadores da cidade.</div>
+				<img id="img-1" src="./images/profilepicture.png" alt="">
+			</div>
+
+			<div class="criar-anuncio" onclick="ScriarAnuncio()">Criar</div>
+
+			<div class="box-anuncios-list">
+				<div class="item-anuncio">
+					<div class="title-anuncio">Anuncio #1 | 24/04/22 (23:33)</div>
+					<div class="desc-anuncio">Este anuncio foi criado para teste</div>
+				</div>
+
+				<div class="item-anuncio">
+					<div class="title-anuncio">Anuncio #1 | 24/04/22 (23:33)</div>
+					<div class="desc-anuncio">Este anuncio foi criado para teste</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="baixo" id="pagina-Baus" style="display: none;">
+
+			<div class="title">Pagina (Ver Baus)</div>
+
+			<div class="aviso-box">
+				<div class="title-2">Bem-vindo, <ss id="name28" class="detalhes">dsadsa</ss></div>
+				<div class="desc">Voce esta acessando a todos os baus da cidade <ss id="nPlayer-VerPerfil"></ss>.</div>
+				<img src="./images/profilepicture.png" alt="">
+			</div>
+
+			<div class="search-bar" style="left: 31%;">
+				<i class="fad fa-search"></i>
+				<input type="text" id="searchInput" class="searchbausfac" placeholder="Pesquisar..">
+			</div>
+
+			<div class="baus-box">
+
+				<div class="baus-header">
+					<div class="item-header" style="width: 38%;">Bau<i class="fas fa-angle-down icon6"></i></div>
+					<div class="item-header" style="width: 22%;">Tipo<i class="fas fa-angle-down icon6"></i></div>
+					<div class="item-header" style="width: 38%;">Acoes<i class="fas fa-angle-down icon6"></i></div>
+				</div>
+
+				<div class="box-baus">
+					<div class="item-baus">
+						<div class="item-header" style="width: 38%;">Bau Motoclub</div>
+
+						<div class="item-header3">
+							<div class="status">34x Itens</div>
+						</div>
+
+						<div class="item-header4">
+							<i class="far fa-eye iconheader" style="margin-left: 44%;"></i>
+						</div>
+
+					</div>
+				</div>
+
+
+			</div>
+
+		</div>
+
+		<div class="baixo" id="pagina-gerenciar" style="display: none;">
+
+			<div class="title">Pagina (Gerenciar)</div>
+
+			<div class="aviso-box">
+				<div class="title-2">Bem-vindo, <ss id="name29" class="detalhes">dsadsa</ss></div>
+				<div class="desc">Voce esta acessando a todos os cargos da cidade.</div>
+				<img src="./images/profilepicture.png" alt="">
+			</div>
+
+			<div class="search-bar" style="left: 33%;">
+				<i class="fad fa-search"></i>
+				<input type="text" id="searchInput" class="searchgerenciar" placeholder="Pesquisar..">
+			</div>
+
+			<div class="gerenciar-box">
+
+				<div class="gerenciar-header">
+					<div class="item-header" style="width: 38%;">Emprego<i class="fas fa-angle-down icon6"></i></div>
+					<div class="item-header" style="width: 22%;">Online<i class="fas fa-angle-down icon6"></i></div>
+					<div class="item-header" style="width: 38%;">Acoes<i class="fas fa-angle-down icon6"></i></div>
+				</div>
+
+				<div class="box-gerenciar">
+					<div class="item-gerenciar">
+						<div class="item-header" style="width: 38%;">Motoclub</div>
+
+						<div class="item-header3">
+							<div class="status">Ilegal</div>
+						</div>
+
+						<div class="item-header4">
+							<i class="far fa-users iconheader" style="margin-left: 44%;"></i>
+						</div>
+
+					</div>
+				</div>
+
+
+			</div>
+
+		</div>
+
+		<div class="baixo" id="pagina-VerPerfil" style="overflow: auto; display: none;">
+
+			<div class="title">Pagina (Ver Perfil)</div>
+
+			<div class="aviso-box">
+				<div class="title-2">Bem-vindo, <ss id="name8" class="detalhes">dsadsa</ss></div>
+				<div class="desc">Voce esta acessando a todas informaçoes da conta do <ss id="nPlayer-VerPerfil2" class="detalhes">athdev</ss>.</div>
+				<img src="./images/profilepicture.png" alt="">
+			</div>
+
+			<div class="identidade-box">
+				<img class="bannerPersonagem1" id="SetIdentidade-Banner" src="https://i.pinimg.com/originals/1a/9a/20/1a9a20cc06e7084d35a34f89ce756ad6.gif" alt="">
+				<img class="imgPersonagem1" id="SetIdentidade-Img" src="https://media.discordapp.net/attachments/913250396363972649/994083008116170823/gif_warn.gif" alt="">
+
+				<div class="nomePersonagem1" id="nome-jogador" onclick="editarIdentidade('trocar-nome')">Eduardo Silva #1</div>
+				<div class="empregoPersonagem1" id="emprego-jogador">Favela Farol</div>
+
+				<div class="identidadePart2">
+					<div class="item-identidade">
+					  <div class="barrinha"></div>
+					  <div class="infos-identidade"><span class="inf1"><i class="fad fa-wallet iconIdentidade"></i>Carteira</span> <span class="inf2"><b id="carteira-jogador" onclick="editarIdentidade('trocar-carteira')">8.839 $</b></span></div>
+					</div>
+
+					<div class="item-identidade">
+						<div class="barrinha"></div>
+						<div class="infos-identidade"><span class="inf1"><i class="fad fa-wallet iconIdentidade"></i>Banco</span> <span class="inf2"><b id="banco-jogador" onclick="editarIdentidade('trocar-banco')">55.839 $</b></span></div>
+					  </div>
+		  
+					<div class="item-identidade">
+					  <div class="barrinha"></div>
+					  <div class="infos-identidade"><span class="inf1"><i class="fad fa-coins iconIdentidade"></i>Coins</span> <span class="inf2"><b id="coins-jogador">0</b></span></div>
+					</div>
+		  
+					<div class="item-identidade">
+					  <div class="barrinha"></div>
+					  <div class="infos-identidade"><span class="inf1"><i class="fad fa-gem iconIdentidade"></i>Vip</span> <span class="inf2"><b id="vip-jogador">Nenhum</b></span></div>
+					</div>
+		  
+					<div class="item-identidade">
+					  <div class="barrinha"></div>
+					  <div class="infos-identidade"><span class="inf1"><i class="fad fa-phone iconIdentidade"></i>Telefone</span> <span class="inf2"><b id="celular-jogador" onclick="editarIdentidade('trocar-celular')">982-392</b></span></div>
+					</div>
+		  
+					<div class="item-identidade">
+					  <div class="barrinha"></div>
+					  <div class="infos-identidade"><span class="inf1"><i class="fad fa-passport iconIdentidade"></i>Registro</span> <span class="inf2"><b id="registro-jogador" >UKVSJE89</b></span></div>
+					</div>
+		  
+					<div class="item-identidade">
+					  <div class="barrinha"></div>
+					  <div class="infos-identidade"><span class="inf1"><i class="fad fa-glass-cheers iconIdentidade"></i>Sangue</span> <span class="inf2"><b id="idade-jogador">22</b></span></div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="opcoes-box">
+				<div class="op-item" style="margin-top: 0%;" onclick="VerInventario()">
+					<img src="https://png.pngtree.com/thumb_back/fh260/background/20210316/pngtree-purple-gray-3d-low-poly-technology-blur-background-image_587960.jpg" alt="">
+					<div class="sopre-imagem"><div class="textCenterImg">INVENTARIO</div></div>
+				</div>
+				<div class="op-item" onclick="VerGaragem()">
+					<img src="https://png.pngtree.com/thumb_back/fh260/background/20210316/pngtree-purple-gray-3d-low-poly-technology-blur-background-image_587960.jpg" alt="">
+					<div class="sopre-imagem"><div class="textCenterImg">CARROS</div></div>
+				</div>
+				<div class="op-item" onclick="VerEmpregos()">
+					<img src="https://png.pngtree.com/thumb_back/fh260/background/20210316/pngtree-purple-gray-3d-low-poly-technology-blur-background-image_587960.jpg" alt="">
+					<div class="sopre-imagem"><div class="textCenterImg">EMPREGOS</div></div>
+				</div>
+			</div>
+
+			<div class="separadorOpc"></div>
+
+			<div class="opcoesRapidas-box">
+				<div class="titleOpcoesRapidas">Interagir</div>
+				
+				<div class="box-OpcoesRAP" style="margin-left: 0%;" onclick="opcoesRapidas('reviver')">
+					<div class="titleItemOpc"><i class="fal fa-medkit IconItemOpc"></i>Reviver</div>
+					<div class="descItemOpc">Voce vai reviver o jogador</div>
+				</div>
+				<div class="box-OpcoesRAP" onclick="opcoesRapidas('matar')">
+					<div class="titleItemOpc"><i class="fal fa-dizzy IconItemOpc"></i>Matar</div>
+					<div class="descItemOpc">Voce vai matar o jogador</div>
+				</div>
+				<div class="box-OpcoesRAP" onclick="opcoesRapidas('colete')">
+					<div class="titleItemOpc"><i class="fal fa-tshirt IconItemOpc"></i>Colete</div>
+					<div class="descItemOpc">Voce vai dar colete ao jogador</div>
+				</div>
+
+				<div class="box-OpcoesRAP" style="margin-left: 0%;" onclick="opcoesRapidas('tpto')">
+					<div class="titleItemOpc"><i class="fal fa-broom IconItemOpc"></i>Tpto</div>
+					<div class="descItemOpc">Voce vai ate o jogador</div>
+				</div>
+				<div class="box-OpcoesRAP" onclick="opcoesRapidas('tptome')">
+					<div class="titleItemOpc"><i class="fal fa-broom IconItemOpc"></i>Tptome</div>
+					<div class="descItemOpc">Voce vai puxar o jogador</div>
+				</div>
+				<div class="box-OpcoesRAP" onclick="opcoesRapidas('fix')">
+					<div class="titleItemOpc"><i class="fal fa-cars IconItemOpc"></i>Fix</div>
+					<div class="descItemOpc">Reparar carro do jogador</div>
+				</div>
+
+				<div class="box-OpcoesRAP" style="margin-left: 0%;" onclick="opcoesRapidas('reset')">
+					<div class="titleItemOpc"><i class="fal fa-trash-restore IconItemOpc"></i>Reset</div>
+					<div class="descItemOpc">Resetar o personagem</div>
+				</div>
+				<div class="box-OpcoesRAP" onclick="opcoesRapidas('algema')">
+					<div class="titleItemOpc"><i class="fal fa-unlink IconItemOpc"></i>Algema</div>
+					<div class="descItemOpc">Retirar / colocar Algema</div>
+				</div>
+
+				<div class="box-OpcoesRAP" onclick="opcoesRapidas('freezar')">
+					<div class="titleItemOpc"><i class="fal fa-igloo IconItemOpc"></i>Freezar</div>
+					<div class="descItemOpc">Congelar o jogador</div>
+				</div>
+
+				<div class="box-OpcoesRAP" style="margin-left: 0%;"  onclick="opcoesRapidas('ragdoll')">
+					<div class="titleItemOpc"><i class="fa-duotone fa-person IconItemOpc"></i>Ragdoll</div>
+					<div class="descItemOpc">Fazer o player cair no chao</div>
+				</div>
+			
+				<div class="box-OpcoesRAP" onclick="opcoesRapidas('fogo')">
+					<div class="titleItemOpc"><i class="fa-duotone fa-fire IconItemOpc"></i>Fogo</div>
+					<div class="descItemOpc">Tacar Fogo</div>
+				</div>
+				
+				<div class="box-OpcoesRAP" onclick="opcoesRapidas('fome')">
+					<div class="titleItemOpc"><i class="fa-duotone fa-burger-soda IconItemOpc"></i>Fome & Sede</div>
+					<div class="descItemOpc">Resetar Fome e Sede</div>
+				</div>
+
+				<div class="box-OpcoesRAP" style="margin-left: 0%;" onclick="opcoesRapidas('spec')">
+					<div class="titleItemOpc"><i class="fa-duotone fa-eye IconItemOpc"></i>Spec</div>
+					<div class="descItemOpc">Olhar um jogador</div>
+				</div>
+
+				<div class="box-OpcoesRAP" onclick="screenshot()">
+					<div class="titleItemOpc"><i class="fal fa-desktop IconItemOpc"></i>Screenshot</div>
+					<div class="descItemOpc">Tirar print da tela</div>
+				</div>
+
+				<div class="box-OpcoesRAP" onclick="editarIdentidade('enviarmensagem')">
+					<div class="titleItemOpc"><i class="fal fa-envelope IconItemOpc"></i>Mensagem</div>
+					<div class="descItemOpc">Enviar mensagem</div>
+				</div>
+
+				<div class="box-OpcoesRAP" style="margin-left: 0%;" onclick="editarIdentidade('listaskins')">
+					<div class="titleItemOpc"><i class="fal fa-user-tag IconItemOpc"></i>Setar skin</div>
+					<div class="descItemOpc">Lista de skins</div>
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="format" style="display: none;">
+			
+			<div class="adicionar-tp-resquest" style="display: none;">
+				<div class="title-resquest">Adicionar <ss class="detalhes">Teleport</ss></div>
+				<div class="close-teleport" onclick="closeCoord()"><i class="fas fa-times"></i></div>
+				<div class="aviso-request">
+					<img src="./images/profilepicture.png" alt="">
+					<div class="text"><i class="far fa-engine-warning" style="color: red; margin-right: 10px;"></i>AVISO</div>
+					<div class="text1">Opa tudo bom , <ss id="name9">Eduardo Silva</ss> este sistema e usado para voce pode guardar teleportes pre-definidos para agilizar o serviço de administração</div>
+				</div>
+
+				<div class="inputFake">
+					<div class="InfInput">Insira o Nome do Teleport</div>
+					<input type="text" id="nome-teleport-create" placeholder="Escrever..">
+				</div>
+
+				<div class="criar-teleport" onclick="createCoord()">Criar Teleport</div>
+			</div>
+
+			<div class="setarID" style="display: none;">
+				<div class="title-resquest">Setar <ss class="detalhes">Discord</ss></div>
+				<div class="close-teleport" onclick="closediscordid()"><i class="fas fa-times"></i></div>
+				<div class="aviso-request">
+					<img src="./images/profilepicture.png" alt="">
+					<div class="text"><i class="far fa-engine-warning" style="color: red; margin-right: 10px;"></i>AVISO</div>
+					<div class="text1">Opa tudo bom , <ss id="name10">Eduardo Silva</ss> e necessario informar qual id do discord da pessoa que deseja setar !</div>
+				</div>
+
+				<div class="inputFake">
+					<div class="InfInput">Insira o id do discord</div>
+					<input type="text" id="idDiscord" placeholder="Escrever..">
+				</div>
+
+				<div class="criar-teleport" onclick="setDiscordId()">Continuar</div>
+			</div>
+
+			<div class="ver-inventario" style="display: none;">
+				<div class="title-resquest">Verificando <ss class="detalhes">Inventario</ss></div>
+				<div class="close-teleport" onclick="closeViewInventory()"><i class="fas fa-times"></i></div>
+				<div class="aviso-request">
+					<img src="./images/profilepicture.png" alt="">
+					<div class="text"><i class="far fa-engine-warning" style="color: red; margin-right: 10px;"></i>AVISO</div>
+					<div class="text1">Opa tudo bom , <ss id="name11">Eduardo Silva</ss> aqui voce tem acesso a verificação do inventario do jogador <ss style="font-weight: bold;" id="player-sendo-verificado">Alan Matias #603</ss></div>
+				</div>
+
+				<div class="inventario-box">
+					<div class="item-inventario">
+						<div class="nome-inventario">Donut</div>
+						<img src="https://media.discordapp.net/attachments/452891038349262849/1027798622496104508/donut.png?width=676&height=676" alt="">
+						<div class="quantidade-item">1x</div>
+						<div class="remove-inventario"><i class="fas fa-trash-alt"></i></div>
+						<div class="barra1"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="ver-garagem" style="display: none;">
+				<div class="title-resquest">Verificando <ss class="detalhes">Garagem</ss></div>
+				<div class="close-teleport" onclick="closeViewGaragem()"><i class="fas fa-times"></i></div>
+				<div class="aviso-request">
+					<img src="./images/profilepicture.png" alt="">
+					<div class="text"><i class="far fa-engine-warning" style="color: red; margin-right: 10px;"></i>AVISO</div>
+					<div class="text1">Opa tudo bom , <ss id="name12">Eduardo Silva</ss> aqui voce tem acesso a verificação a garagem do jogador <ss style="font-weight: bold;" id="player-sendo-verificado2">Alan Matias [603]</ss></div>
+				</div>
+
+				<div class="garagem-box">
+					<div class="item-garagem">
+						<div class="nome-garagem">${key.name}</div>
+						<img src="http://localhost/cars/adder.png" alt="">
+						<div class="remove-inventario"><i class="fas fa-trash-alt"></i></div>
+						<div class="barra1"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="ver-baucarro" style="display: none;">
+				<div class="title-resquest">Verificando <ss class="detalhes">Bau</ss></div>
+				<div class="close-teleport" onclick="closeViewBauCarro()"><i class="fas fa-times"></i></div>
+				<div class="aviso-request">
+					<img src="./images/profilepicture.png" alt="">
+					<div class="text"><i class="far fa-engine-warning" style="color: red; margin-right: 10px;"></i>AVISO</div>
+					<div class="text1">Opa tudo bom , <ss id="name13">Eduardo Silva</ss> aqui voce tem acesso a verificação o bau do veículo do jogador <ss style="font-weight: bold;" id="player-sendo-verificado3">Alan Matias #603</ss></div>
+				</div>
+
+				<div class="baucarro-box"></div>
+			</div>
+
+			<div class="ver-casas" style="display: none;">
+				<div class="title-resquest">Verificando <ss class="detalhes">Casas</ss></div>
+				<div class="close-teleport" onclick="closeViewCasa()"><i class="fas fa-times"></i></div>
+				<div class="aviso-request">
+					<img src="./images/profilepicture.png" alt="">
+					<div class="text"><i class="far fa-engine-warning" style="color: red; margin-right: 10px;"></i>AVISO</div>
+					<div class="text1">Opa tudo bom , <ss id="name14">Eduardo Silva</ss> aqui voce tem acesso a verificação das casas do jogador <ss style="font-weight: bold;" id="player-sendo-verificado5">Alan Matias [603]</ss></div>
+				</div>
+
+				<div class="casas-box"></div>
+			</div>
+
+			<div class="ver-baucasas" style="display: none;">
+				<div class="title-resquest">Verificando <ss class="detalhes">Bau</ss></div>
+				<div class="close-teleport" onclick="closeViewBauCasa()"><i class="fas fa-times"></i></div>
+				<div class="aviso-request">
+					<img src="./images/profilepicture.png" alt="">
+					<div class="text"><i class="far fa-engine-warning" style="color: red; margin-right: 10px;"></i>AVISO</div>
+					<div class="text1">Opa tudo bom , <ss id="name15">Eduardo Silva</ss> aqui voce tem acesso a verificação o bau da casa do jogador <ss style="font-weight: bold;" id="player-sendo-verificado6">Alan Matias #603</ss></div>
+				</div>
+
+				<div class="baucasas-box">
+					<div class="item-baucasas">
+						<div class="nome-baucasas">Donut</div>
+						<img src="https://media.discordapp.net/attachments/452891038349262849/1027798622496104508/donut.png?width=676&height=676" alt="">
+						<div class="quantidade-item">1x</div>
+						<div class="remove-baucasas"><i class="fas fa-trash-alt"></i></div>
+						<div class="barra1"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="ver-baufac" style="display: none;">
+				<div class="title-resquest">Verificando <ss class="detalhes">Bau</ss></div>
+				<div class="close-teleport" onclick="closeViewBauFac()"><i class="fas fa-times"></i></div>
+				<div class="aviso-request">
+					<img src="./images/profilepicture.png" alt="">
+					<div class="text"><i class="far fa-engine-warning" style="color: red; margin-right: 10px;"></i>AVISO</div>
+					<div class="text1">Opa tudo bom, <ss id="name100">Eduardo Silva</ss> aqui voce tem acesso a verificação o bau de fac</div>
+				</div>
+
+				<div class="baufac-box">
+					<div class="item-baufac">
+						<div class="nome-baufac">Donut</div>
+						<img src="https://media.discordapp.net/attachments/452891038349262849/1027798622496104508/donut.png?width=676&height=676" alt="">
+						<div class="quantidade-item">1x</div>
+						<div class="remove-baufac"><i class="fas fa-trash-alt"></i></div>
+						<div class="barra1"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="ver-groups" style="display: none;">
+				<div class="title-resquest">Verificando <ss class="detalhes">Players</ss></div>
+				<div class="close-teleport" onclick="closeViewGroups()"><i class="fas fa-times"></i></div>
+				<div class="aviso-request">
+					<img src="./images/profilepicture.png" alt="">
+					<div class="text"><i class="far fa-engine-warning" style="color: rgb(255, 102, 0); margin-right: 10px;"></i>AVISO</div>
+					<div class="text1">Opa tudo bom, <ss id="name101">Eduardo Silva</ss> aqui voce tem acesso ao usuário do grupo</div>
+				</div>
+
+				<div class="groups-box">
+					<div class="item-groups">
+						<div class="nome-groups">Eduardo Silva</div>
+						<div class="cargo-groups">Motoclub</div>
+						<img class="img-groups" src="https://media.discordapp.net/attachments/913250396363972649/994083008116170823/gif_warn.gif" alt="">
+						<div class="opcoes-div">
+							<div class="opcoes-cargo upgrade" style="margin-left: -2%;"><i class="fas fa-angle-up"></i></div>
+							<div class="opcoes-cargo downgrade"><i class="fas fa-angle-down"></i></div>
+							<div class="opcoes-cargo"><i class="fas fa-times"></i></div>
+						</div>
+					</div>
+		
+				</div>
+			</div>
+
+			<div class="ver-empregos" style="display: none;">
+				<div class="title-resquest">Verificando <ss class="detalhes">Empregos</ss></div>
+				<div class="close-teleport" onclick="closeViewEmpregos()"><i class="fas fa-times"></i></div>
+				<div class="aviso-request">
+					<img src="./images/profilepicture.png" alt="">
+					<div class="text"><i class="far fa-engine-warning" style="color: red; margin-right: 10px;"></i>AVISO</div>
+					<div class="text1">Opa tudo bom , <ss id="name16">Eduardo Silva</ss> aqui voce tem acesso a verificação aos empregos do jogador <ss style="font-weight: bold;" id="player-sendo-verificado7">Alan Matias [603]</ss></div>
+				</div>
+
+				<div class="empregos-box">
+
+					<div class="item-empregos">
+						<div class="nome-empregos">Teste</div>
+						<div class="remove-empregos"><i class="fas fa-user-times"></i></div>
+						<div class="barra1"></div>
+					</div>
+
+				</div>
+				<div class="adicionar-emprego" onclick="addemprego()">Adicionar Emprego</div>
+			</div>
+
+			<div class="ver-addempregos" style="display: none;">
+				<div class="title-resquest">Adicionando <ss class="detalhes">Emprego</ss></div>
+				<div class="close-teleport" onclick="closeViewaddEmpregos()"><i class="fas fa-times"></i></div>
+				<div class="aviso-request">
+					<img src="./images/profilepicture.png" alt="">
+					<div class="text"><i class="far fa-engine-warning" style="color: red; margin-right: 10px;"></i>AVISO</div>
+					<div class="text1">Opa tudo bom , <ss id="name17">Eduardo Silva</ss> aqui voce tem acesso a adicionar cargos ao jogador <ss style="font-weight: bold;" id="player-sendo-verificado8">Alan Matias [603]</ss></div>
+				</div>
+
+				<div class="addempregos-box">
+
+					<div class="item-addempregos">
+						<div class="nome-addempregos">Teste</div>
+						<div class="remove-addempregos"><i class="fas fa-user-check"></i></div>
+						<div class="barra1"></div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="aplicar-punicao" style="display: none;">
+				<div class="title-resquest">Aplicar <ss class="destalhes">Punicão</ss></div>
+				<div class="close-teleport" onclick="closePunicao()"><i class="fas fa-times"></i></div>
+
+				<div class="aviso-request">
+					<img src="./images/profilepicture.png" alt="">
+					<div class="text"><i class="far fa-engine-warning" style="color: red; margin-right: 10px;"></i>AVISO</div>
+					<div class="text1">Opa tudo bom , <ss id="name18">Eduardo Silva</ss> este sistema e usado para voce aplicar advertencias ou dar kick em algum jogador no caso: <ss style="font-weight: bold;" id="player-sendo-verificado3">Alan Matias [603]</ss></div>
+				</div>
+
+				<div class="escolha-box" style="margin-left: 5%; margin-top: 3.5%;">
+					<div class="escolha" onclick="paginaPunicao('kick')">Aplicar Kick</div>
+					<div class="escolha" onclick="paginaPunicao('ban')">Aplicar Ban</div>
+					<div class="escolha" onclick="paginaPunicao('adv')">Aplicar Advertencia</div>
+				</div>
+
+			</div>
+
+			<div class="aplicar-adv" style="display: none;">
+				<div class="title-resquest">Aplicar <ss class="detalhes">Advertência</ss></div>
+				<div class="close-teleport" onclick="closePunicao()"><i class="fas fa-times"></i></div>
+				<div class="aviso-request">
+					<img src="./images/profilepicture.png" alt="">
+					<div class="text"><i class="far fa-engine-warning" style="color: red; margin-right: 10px;"></i>AVISO</div>
+					<div class="text1">Opa tudo bom, <ss id="name19">Eduardo Silva</ss> voce esta aplicando uma punição do jogador</div>
+				</div>
+
+				<div class="inputFake">
+					<div class="InfInput">Insira o motivo da advertência</div>
+					<input type="text" id="punicao-adv-input" placeholder="Escrever..">
+				</div>
+
+				<div class="criar-teleport" onclick="createAdv()">Confirmar</div>
+			</div>
+
+			<div class="aplicar-kick" style="display: none;">
+				<div class="title-resquest">Aplicar <ss class="detalhes">Kick</ss></div>
+				<div class="close-teleport" onclick="closePunicao()"><i class="fas fa-times"></i></div>
+				<div class="aviso-request">
+					<img src="./images/profilepicture.png" alt="">
+					<div class="text"><i class="far fa-engine-warning" style="color: red; margin-right: 10px;"></i>AVISO</div>
+					<div class="text1">Opa tudo bom, <ss id="name19">Eduardo Silva</ss> voce esta aplicando uma punição do jogador</div>
+				</div>
+
+				<div class="inputFake">
+					<div class="InfInput">Insira o motivo do kick</div>
+					<input type="text" id="punicao-kick-input" placeholder="Escrever..">
+				</div>
+
+				<div class="criar-teleport" onclick="createKick()">Confirmar</div>
+			</div>
+
+			<div class="aplicar-ban" style="display: none;">
+				<div class="title-resquest">Aplicar <ss class="detalhes">Banimento</ss></div>
+				<div class="close-teleport" onclick="closePunicao()"><i class="fas fa-times"></i></div>
+				<div class="aviso-request">
+					<img src="./images/profilepicture.png" alt="">
+					<div class="text"><i class="far fa-engine-warning" style="color: red; margin-right: 10px;"></i>AVISO</div>
+					<div class="text1">Opa tudo bom, <ss id="name19">Eduardo Silva</ss> voce esta aplicando uma punição do jogador</div>
+				</div>
+
+				<div class="inputFake">
+					<div class="InfInput">Insira o motivo do banimento</div>
+					<input type="text" id="punicao-ban-input" placeholder="Escrever..">
+				</div>
+
+				<div class="criar-teleport" onclick="createBan()">Confirmar</div>
+			</div>
+
+			<div class="criar-aviso" style="display: none;">
+				<div class="title-resquest">Criar aviso</div>
+				<div class="close-teleport" onclick="closeAviso()"><i class="fas fa-times"></i></div>
+				<div class="aviso-request">
+					<img src="./images/profilepicture.png" alt="">
+					<div class="text"><i class="far fa-engine-warning" style="color: red; margin-right: 10px;"></i>AVISO</div>
+					<div class="text1">Opa tudo bom, <ss id="name19">Eduardo Silva</ss> estamos preparando o seu anuncio que voce ira enviar para o jogador <ss style="font-weight: bold;" id="player-sendo-verificado4">Alan Matias [603]</ss></div>
+				</div>
+
+				<div class="inputFake">
+					<div class="InfInput">Insira o texto do aviso</div>
+					<input type="text" id="aviso-input" placeholder="Escrever..">
+				</div>
+
+				<div class="criar-teleport" onclick="createAviso()">Enviar Anuncios</div>
+			</div>
+
+			<div class="ver-motivo-punicao" style="display: none;">
+				<div class="title-resquest">Ver Motivo</div>
+				<div class="close-teleport" onclick="closeVerMotivo()"><i class="fas fa-times"></i></div>
+				<div class="aviso-request">
+					<img src="./images/profilepicture.png" alt="">
+					<div class="text"><i class="far fa-engine-warning" style="color: red; margin-right: 10px;"></i>AVISO</div>
+					<div class="text1">Opa voce de novo, <ss id="name102">Eduardo Silva</ss> aqui voce pode verificar o motivo da punicao do jogador <ss style="font-weight: bold;" id="player-sendo-verificado9">Alan Matias [603]</ss></div>
+				</div>
+
+				<div class="inputFake">
+					<div class="InfInput">Staff que aplicou</div>
+					<div class="informacao-punicao" id="inf-punicao1"></div>
+				</div>
+
+				<div class="inputFake">
+					<div class="InfInput">Motivo da punicao</div>
+					<div class="informacao-punicao" id="inf-punicao2"></div>
+				</div>
+
+				<div class="inputFake">
+					<div class="InfInput">Data da punicao</div>
+					<div class="informacao-punicao" id="inf-punicao3"></div>
+				</div>
+
+				<div class="criar-teleport" onclick="closeVerMotivo()">Fechar</div>
+			</div>
+
+			<div class="pegar-item" style="display: none;">
+				<div class="title-resquest">Pegar <ss class="detalhes">Item</ss></div>
+				<div class="close-teleport" onclick="closePegarItem()"><i class="fas fa-times"></i></div>
+
+				<div class="aviso-request">
+					<img src="./images/profilepicture.png" alt="">
+					<div class="text"><i class="far fa-engine-warning" style="color: red; margin-right: 10px;"></i>AVISO</div>
+					<div class="text1">Opa voce deseja pegar o item ? lembrando todas as informaçoes vao diretas para logs de discord !</div>
+				</div>
+
+				<div class="item-inventario">
+					<div class="nome-inventario" id="itempegar-nome">Mochila</div>
+					<img id="itempegar-img" src="https://cdn.discordapp.com/attachments/546810663385694258/970117884896493638/mochila.png" alt="">
+					<div class="quantidade-item" style="color: transparent;">1x</div>
+					<div class="barra1"></div>
+				</div>
+
+				<div class="inputFake">
+					<div class="InfInput">Quantidade do Item</div>
+					<input id="quantidadepegar" type="number" placeholder="Escrever..">
+				</div>
+
+				<div class="criar-teleport" onclick="PegarItemConfirmar()">Confirmar</div>
+			</div>
+
+			<div class="pegar-carro" style="display: none;">
+				<div class="title-resquest">Pegar <ss class="detalhes">Carro</ss></div>
+				<div class="close-teleport" onclick="closePegarCarro()"><i class="fas fa-times"></i></div>
+
+				<div class="aviso-request">
+					<img id="imagem-request" src="./images/profilepicture.png" alt="">
+					<div class="text"><i class="far fa-engine-warning" style="color: red; margin-right: 10px;"></i>AVISO</div>
+					<div class="text1">Opa voce deseja setar um veiculo na sua garagem ou na do outro jogador insira o passaporte.</div>
+				</div>
+
+				<div class="item-inventario">
+					<div class="nome-inventario" id="carropegar-nome">Mochila</div>
+					<img id="carropegar-img" src="https://cdn.discordapp.com/attachments/546810663385694258/970117884896493638/mochila.png" alt="">
+					<div class="quantidade-item" style="color: transparent;">1x</div>
+					<div class="barra1"></div>
+				</div>
+
+				<div class="inputFake">
+					<div class="InfInput">Passaporte do jogador</div>
+					<input id="passaporteGaragem" type="number" placeholder="Escrever..">
+				</div>
+
+				<div class="criar-teleport" onclick="PegarGaragemConfirmar()">Confirmar</div>
+			</div>
+
+			<div class="fazer-anuncio" style="display: none;">
+				<div class="title-resquest">Criar Anuncio</div>
+				<div class="close-teleport" onclick="closeAnuniosList()"><i class="fas fa-times"></i></div>
+
+				<div class="aviso-request">
+					<img id="imagem-resquest" src="./images/profilepicture.png" alt="">
+					<div class="text"><i class="far fa-engine-warning" style="color: red; margin-right: 10px;"></i>AVISO</div>
+					<div class="text1">Opa voce deseja setar um veiculo na sua garagem ou na do outro jogador insira o passaporte.</div>
+				</div>
+				
+				<div class="anuncios-lista">
+					<div class="item-anuncio-fazer">Staff</div>
+					<div class="item-anuncio-fazer">Staff</div>
+					<div class="item-anuncio-fazer">Staff</div>
+					<div class="item-anuncio-fazer">Staff</div>
+					<div class="item-anuncio-fazer">Staff</div>	
+				</div>
+
+				<div class="confirm-anuncio" style="display: none;">
+					<div class="inputFake">
+						<div class="InfInput">Texto do anuncio</div>
+						<input id="anuncioText" type="text" placeholder="Escrever..">
+					</div>
+	
+					<div class="criar-teleport" onclick="FazerAnuncioAll()">Confirmar</div>
+				</div>
+			</div>
+
+			<div class="trocar-nome" style="display: none;">
+				<div class="title-resquest">Trocar <ss class="detalhes">nome</ss></div>
+				<div class="close-teleport" onclick="closeTrocar('nome')"><i class="fas fa-times"></i></div>
+				<div class="aviso-request">
+					<img src="./images/profilepicture.png" alt="">
+					<div class="text"><i class="far fa-engine-warning" style="color: red; margin-right: 10px;"></i>AVISO</div>
+					<div class="text1">Opa tudo bom , <ss id="name21">Eduardo Silva</ss> este sistema e usado para voce trocar informaçoes do jogador</div>
+				</div>
+
+				<div class="inputFake">
+					<div class="InfInput">Insira o primeiro nome</div>
+					<input type="text" id="nome-novo" placeholder="Escrever..">
+				</div>
+
+				<div class="inputFake">
+					<div class="InfInput">Insira o segundo nome</div>
+					<input type="text" id="nome-novo2" placeholder="Escrever..">
+				</div>
+
+				<div class="criar-teleport" onclick="TrocarNome()">Concluir</div>
+			</div>
+
+			<div class="trocar-carteira" style="display: none;">
+				<div class="title-resquest">Editar <ss class="detalhes">Carteira</ss></div>
+				<div class="close-teleport" onclick="closeTrocar('carteira')"><i class="fas fa-times"></i></div>
+				<div class="aviso-request">
+					<img src="./images/profilepicture.png" alt="">
+					<div class="text"><i class="far fa-engine-warning" style="color: red; margin-right: 10px;"></i>AVISO</div>
+					<div class="text1">Opa tudo bom , <ss id="name22">Eduardo Silva</ss> este sistema e usado para voce trocar informaçoes do jogador</div>
+				</div>
+
+				<div class="select-carteira" data-tipo='mais' style="margin-left: 40.8%;"><i class="fas fa-plus"></i></div>
+				<div class="select-carteira" data-tipo='menos'><i class="fas fa-minus"></i></div>
+
+				<div class="inputFake">
+					<div class="InfInput">Insira o valor</div>
+					<input type="text" id="carteira-novo" placeholder="Escrever..">
+				</div>
+
+				<div class="criar-teleport" onclick="TrocarCarteira()">Concluir</div>
+			</div>
+
+			<div class="trocar-banco" style="display: none;">
+				<div class="title-resquest">Editar <ss class="detalhes">banco</ss></div>
+				<div class="close-teleport" onclick="closeTrocar('banco')"><i class="fas fa-times"></i></div>
+				<div class="aviso-request">
+					<img src="./images/profilepicture.png" alt="">
+					<div class="text"><i class="far fa-engine-warning" style="color: red; margin-right: 10px;"></i>AVISO</div>
+					<div class="text1">Opa tudo bom , <ss id="name23">Eduardo Silva</ss> este sistema e usado para voce trocar informaçoes do jogador</div>
+				</div>
+
+				<div class="select-carteira" data-tipo='mais' style="margin-left: 40.8%;"><i class="fas fa-plus"></i></div>
+				<div class="select-carteira" data-tipo='menos'><i class="fas fa-minus"></i></div>
+
+				<div class="inputFake">
+					<div class="InfInput">Insira o valor</div>
+					<input type="text" id="banco-novo" placeholder="Escrever..">
+				</div>
+
+				<div class="criar-teleport" onclick="TrocarBanco()">Concluir</div>
+			</div>
+
+			<div class="trocar-celular" style="display: none;">
+				<div class="title-resquest">Editar <ss class="detalhes">Celular</ss></div>
+				<div class="close-teleport" onclick="closeTrocar('celular')"><i class="fas fa-times"></i></div>
+				<div class="aviso-request">
+					<img src="./images/profilepicture.png" alt="">
+					<div class="text"><i class="far fa-engine-warning" style="color: red; margin-right: 10px;"></i>AVISO</div>
+					<div class="text1">Opa tudo bom , <ss id="name24">Eduardo Silva</ss> este sistema e usado para voce trocar informaçoes do jogador</div>
+				</div>
+
+				<div class="inputFake">
+					<div class="InfInput">Insira o novo celular</div>
+					<input type="text" id="celular-novo" placeholder="Escrever..">
+				</div>
+
+				<div class="criar-teleport" onclick="TrocarCelular()">Concluir</div>
+			</div>
+
+			<div class="trocar-registro" style="display: none;">
+				<div class="title-resquest">Editar <ss class="detalhes">Registro</ss></div>
+				<div class="close-teleport" onclick="closeTrocar('registro')"><i class="fas fa-times"></i></div>
+				<div class="aviso-request">
+					<img src="./images/profilepicture.png" alt="">
+					<div class="text"><i class="far fa-engine-warning" style="color: red; margin-right: 10px;"></i>AVISO</div>
+					<div class="text1">Opa tudo bom , <ss id="name25">Eduardo Silva</ss> este sistema e usado para voce trocar informaçoes do jogador</div>
+				</div>
+
+				<div class="inputFake">
+					<div class="InfInput">Insira o novo registro</div>
+					<input type="text" id="registro-novo" placeholder="Escrever..">
+				</div>
+
+				<div class="criar-teleport" onclick="TrocarRegistro()">Concluir</div>
+			</div>
+
+			<div class="ver-screenshot" style="display: none;">
+				<div class="title-resquest">Ver <ss class="detalhes">screenshot</ss></div>
+				<div class="close-teleport" onclick="closeTrocar('screenshot')"><i class="fas fa-times"></i></div>
+				<div class="aviso-request">
+					<img src="./images/profilepicture.png" alt="">
+					<div class="text"><i class="far fa-engine-warning" style="color: red; margin-right: 10px;"></i>AVISO</div>
+					<div class="text1">Opa tudo bom , <ss id="name26">Eduardo Silva</ss> este sistema e usado para voce ver a tela do jogador</div>
+				</div>
+
+				<img class="img-screenshot" src="https://media.discordapp.net/attachments/452891038349262849/1032723940533088336/loading-93.gif" alt="">
+			</div>
+
+			<div class="enviar-mensagem" style="display: none;">
+				<div class="title-resquest">Enviar <ss class="detalhes">Mensagem</ss></div>
+				<div class="close-teleport" onclick="closeTrocar('enviarmensagem')"><i class="fas fa-times"></i></div>
+				<div class="aviso-request">
+					<img src="./images/profilepicture.png" alt="">
+					<div class="text"><i class="far fa-engine-warning" style="color: red; margin-right: 10px;"></i>AVISO</div>
+					<div class="text1">Opa tudo bom , <ss id="name27">Eduardo Silva</ss> este sistema e usado para voce enviar uma mensagem ao jogador</div>
+				</div>
+
+				<div class="inputFake">
+					<div class="InfInput">Insira a menagem</div>
+					<input type="text" id="mensagemenviada" placeholder="Escrever..">
+				</div>
+
+				<div class="criar-teleport" onclick="EnviarMensagem()">Concluir</div>
+			</div>
+
+			<div class="lista-skin" style="display: none;">
+				<div class="title-resquest">Setar <ss class="detalhes">Skin</ss></div>
+				<div class="close-teleport" onclick="closeTrocar('listaskins')"><i class="fas fa-times"></i></div>
+				<div class="aviso-request">
+					<img src="./images/profilepicture.png" alt="">
+					<div class="text"><i class="far fa-engine-warning" style="color: red; margin-right: 10px;"></i>AVISO</div>
+					<div class="text1">Opa tudo bom , <ss id="name9">Eduardo Silva</ss> este sistema e usado para voce setar um ped ao jogador</div>
+				</div>
+
+				<div class="search-bar" style="left: 24%; top: 4.5%; width: 25%;">
+					<i class="fad fa-search"></i>
+					<input type="text" id="searchInput" class="searchskins" placeholder="Pesquisar..">
+				</div>
+
+				<div class="overflowskins">
+					<div class="item-overflowskins">
+						<div class="nome-skin detalhes">Skin Gamboz</div>
+						<div class="set-skin">CS_GambozBaby</div>
+						<img class="img-skin" src="https://media.discordapp.net/attachments/452891038349262849/1032717408248541275/unknown.png" alt="">
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		</div>
+		
+	</div>
+
+
+
+	<script src="jquery.js" type="text/javascript"></script>
+
+	
+	</body>
+</html>

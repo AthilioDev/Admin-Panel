@@ -1,0 +1,4936 @@
+.format{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(15, 15, 15,0.4);
+}
+
+.format .adicionar-tp-resquest{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    background: white;
+    border-radius: 10px;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.format .adicionar-tp-resquest .title-resquest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .adicionar-tp-resquest .aviso-request{
+    width: 90%;
+    height: 100px;
+    background: #f0efef;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+
+.format .adicionar-tp-resquest .aviso-request img{
+    position: absolute;
+    width: 110px;
+    margin-left: 73%;
+}
+
+.format .adicionar-tp-resquest .aviso-request .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .adicionar-tp-resquest .aviso-request .text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.4);
+    padding-top: 2%;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.format .adicionar-tp-resquest .inputFake{
+    width: 90%;
+    margin-top: 5%;
+    height: 40px;
+    margin-left: 5%;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+.format .adicionar-tp-resquest .inputFake .InfInput{
+    width: 40%;
+    border-radius: 3px 5px 5px 3px;
+    height: 100%;
+    background: rgb(26, 26, 26);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.format .adicionar-tp-resquest .inputFake input{
+    border: 0;
+    outline: 0;
+    width: 58%;
+    height: 100%;
+    margin-top: -8%;
+    margin-left: 42%;
+}
+
+.format .adicionar-tp-resquest .criar-teleport{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 2.5%;
+    border-radius: 10px;
+    transition: all 1s;
+    height: 40px;
+    background: rgb(26, 26, 26);
+    line-height: 40px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    outline: 0;
+    border: 0;
+}
+
+.format .adicionar-tp-resquest .criar-teleport:hover{
+    transform: scale(1.05);
+}
+
+.format .adicionar-tp-resquest .close-teleport{
+    margin-top: -4%;
+    margin-left: 92%;
+    color: rgba(0, 0, 0, 0.3);
+    transition: all 0.7s;
+}
+
+.format .adicionar-tp-resquest .close-teleport:hover{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+.format .adicionar-tp-resquest{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    background: white;
+    border-radius: 10px;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.format .adicionar-tp-resquest .title-resquest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .adicionar-tp-resquest .aviso-request{
+    width: 90%;
+    height: 100px;
+    background: #f0efef;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+/* ----------------------------------------------------
+-- Ver Inventario
+---------------------------------------------------- */
+
+.format .ver-inventario{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 65%;
+    height: 80%;
+    background: white;
+    border-radius: 10px;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.format .ver-inventario .title-resquest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .ver-inventario .aviso-request{
+    width: 90%;
+    height: 100px;
+    background: #f0efef;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+.format .ver-inventario .aviso-request img{
+    position: absolute;
+    width: 80px;
+    margin-left: 73%;
+}
+
+.format .ver-inventario .aviso-request .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .ver-inventario .aviso-request .text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.4);
+    padding-top: 2%;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.format .ver-inventario .close-teleport{
+    margin-top: -4%;
+    margin-left: 92%;
+    color: rgba(0, 0, 0, 0.3);
+    transition: all 0.7s;
+}
+
+.format .ver-inventario .close-teleport:hover{
+    color: red;
+}
+
+.format .ver-inventario .inventario-box{
+    width: 90%;
+    height: 50%;
+    margin-left: 5%;
+    margin-top: 1.5%;
+    overflow: auto;
+}
+
+.format .ver-inventario .item-inventario{
+    background: #f0efef;
+    width: 115px;
+    height: 120px;
+    display: inline-block;
+    margin-left: 1%;
+    margin-top: 2%;
+    border-radius: 10px;
+    transition: ease-in .7s;
+}
+
+.format .ver-inventario .item-inventario .barra1{
+    width: 60%;
+    height: 6px;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 5%;
+    background: rgb(15, 15, 15,0.5);
+    margin-left: 20%;
+}
+
+.format .ver-inventario .item-inventario .barra2{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    height: 100%;
+}
+
+.format .ver-inventario .remove-inventario{
+    text-align: center;
+    margin-top: 2%;
+    color: #e42121;
+    text-shadow: 0px 0px 30px #e42121;
+    transition: all 1s;
+}
+
+.format .ver-inventario .remove-inventario:hover{
+    transform: scale(1.1);
+}
+
+#item-add:hover{
+    background: #dddddd;
+}
+
+.format .ver-inventario .item-inventario .nome-inventario{
+    text-align: center;
+    padding-top: 7px;
+    font-size: 12px;
+}
+
+.format .ver-inventario .item-inventario img{
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 40px;
+    max-height: 40px;
+    margin-left: 33.7%;
+}
+
+.format .ver-inventario .item-inventario .quantidade-item{
+    text-align: center;
+    padding-top: 2px;
+    font-size: 12px;
+}
+
+.format .ver-inventario .removerInv{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    border-radius: 10px;
+    background: rgb(15, 15, 15,0.3);
+}
+
+.format .ver-inventario .b-remover{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    line-height: 95px;
+}
+
+/* ----------------------------------------------------
+-- Ver Garagem
+---------------------------------------------------- */
+
+.format .ver-garagem{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 55%;
+    height: 60%;
+    background: white;
+    border-radius: 10px;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.format .ver-garagem .title-resquest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .ver-garagem .aviso-request{
+    width: 90%;
+    height: 100px;
+    background: #f0efef;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+.format .ver-garagem .aviso-request img{
+    position: absolute;
+    width: 80px;
+    margin-left: 73%;
+}
+
+.format .ver-garagem .aviso-request .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .ver-garagem .aviso-request .text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.4);
+    padding-top: 2%;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.format .ver-garagem .close-teleport{
+    margin-top: -4%;
+    margin-left: 92%;
+    color: rgba(0, 0, 0, 0.3);
+    transition: all 0.7s;
+}
+
+.format .ver-garagem .close-teleport:hover{
+    color: red;
+}
+
+.format .ver-garagem .garagem-box{
+    width: 90%;
+    height: 50%;
+    margin-left: 5%;
+    margin-top: 1.5%;
+    overflow: auto;
+}
+
+.format .ver-garagem .item-garagem{
+    background: #f0efef;
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+    margin-left: 1.6%;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+
+.format .ver-garagem .remove-casas{
+    margin-top: 10%;
+    margin-left: 34%;
+    color: #e42121;
+    text-shadow: 0px 0px 30px #e42121;
+    transition: all 1s;
+}
+
+.format .ver-garagem .bau-casas{
+    margin-top: -13%;
+    margin-left: 54%;
+    color: #6C63FF;
+    text-shadow: 0px 0px 30px #6C63FF;  
+    transition: all 1s;
+}
+
+.format .ver-garagem .item-garagem .barra1{
+    width: 50%;
+    height: 6px;
+    border-radius: 10px 10px 0px 0px;
+    background: #e42121;
+    margin-top: 7%;
+    margin-left: 25%;
+}
+
+.format .ver-garagem .item-garagem .barra1{
+    width: 60%;
+    height: 6px;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 5%;
+    background: #e42121;
+    margin-left: 20%;
+}
+
+.format .ver-garagem .item-garagem .barra2{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    height: 100%;
+}
+
+.format .ver-garagem .item-garagem .nome-garagem{
+    text-align: center;
+    padding-top: 7px;
+    font-size: 12px;
+}
+
+.format .ver-garagem .item-garagem img{
+    min-width: 60px;
+    max-width: 60px;
+    min-height: 50px;
+    max-height: 50px;
+    margin-left: 28%;
+}
+
+/* ----------------------------------------------------
+-- Ver casas
+---------------------------------------------------- */
+
+.format .ver-casas{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 55%;
+    height: 60%;
+    background: white;
+    border-radius: 10px;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.format .ver-casas .title-resquest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .ver-casas .aviso-request{
+    width: 90%;
+    height: 100px;
+    background: #f0efef;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+.format .ver-casas .aviso-request img{
+    position: absolute;
+    width: 110px;
+    margin-left: 73%;
+}
+
+.format .ver-casas .aviso-request .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .ver-casas .aviso-request .text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.4);
+    padding-top: 2%;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.format .ver-casas .close-teleport{
+    margin-top: -4%;
+    margin-left: 92%;
+    color: rgba(0, 0, 0, 0.3);
+    transition: all 0.7s;
+}
+
+.format .ver-casas .close-teleport:hover{
+    color: red;
+}
+
+.format .ver-casas .casas-box{
+    width: 90%;
+    height: 50%;
+    margin-left: 5%;
+    margin-top: 1.5%;
+    overflow: auto;
+}
+
+.format .ver-casas .item-casas{
+    background: #f0efef;
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+    margin-left: 1.6%;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+
+.format .ver-casas .remove-casas{
+    margin-top: 10%;
+    margin-left: 34%;
+    color: #e42121;
+    text-shadow: 0px 0px 30px #e42121;
+    transition: all 1s;
+}
+
+.format .ver-casas .bau-casas{
+    margin-top: -13%;
+    margin-left: 54%;
+    color: #6C63FF;
+    text-shadow: 0px 0px 30px #6C63FF;  
+    transition: all 1s;
+}
+
+
+.format .ver-casas .item-casas .barra1{
+    width: 50%;
+    height: 6px;
+    border-radius: 10px 10px 0px 0px;
+    background: #e42121;
+    margin-top: 7%;
+    margin-left: 25%;
+}
+
+.format .ver-casas .item-casas .nome-casas{
+    text-align: center;
+    padding-top: 7px;
+    font-size: 12px;
+}
+
+.format .ver-casas .item-casas img{
+    min-width: 60px;
+    max-width: 60px;
+    min-height: 50px;
+    max-height: 50px;
+    margin-left: 24.5%;
+}
+
+/* ----------------------------------------------------
+-- Punicao
+---------------------------------------------------- */
+
+
+.format .aplicar-punicao{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    background: white;
+    border-radius: 10px;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.format .aplicar-punicao .title-resquest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .aplicar-punicao .aviso-request{
+    width: 90%;
+    height: 100px;
+    background: #f0efef;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+
+.format .aplicar-punicao .aviso-request img{
+    position: absolute;
+    width: 80px;
+    margin-left: 68%;
+}
+
+.format .aplicar-punicao .aviso-request .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .aplicar-punicao .aviso-request .text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.4);
+    padding-top: 2%;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.format .aplicar-punicao .inputFake{
+    width: 90%;
+    margin-top: 5%;
+    height: 40px;
+    margin-left: 5%;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+.format .aplicar-punicao .inputFake .InfInput{
+    width: 40%;
+    border-radius: 3px 5px 5px 3px;
+    height: 100%;
+    background: rgb(26, 26, 26);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.format .aplicar-punicao .inputFake input{
+    border: 0;
+    outline: 0;
+    width: 58%;
+    height: 100%;
+    margin-top: -8%;
+    margin-left: 42%;
+}
+
+.format .aplicar-punicao .criar-teleport{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 2.5%;
+    border-radius: 10px;
+    transition: all 1s;
+    height: 40px;
+    background: rgb(26, 26, 26);
+    line-height: 40px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    outline: 0;
+    border: 0;
+}
+
+.format .aplicar-punicao .criar-teleport:hover{
+    transform: scale(1.05);
+}
+
+.format .aplicar-punicao .close-teleport{
+    margin-top: -4%;
+    margin-left: 92%;
+    color: rgba(0, 0, 0, 0.3);
+    transition: all 0.7s;
+}
+
+.format .aplicar-punicao .close-teleport:hover{
+    color: red;
+}
+
+.format .aplicar-punicao .escolha{
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 2.5%;
+    border-radius: 10px;
+    transition: all 1s;
+    height: 40px;
+    background: rgb(26, 26, 26);
+    line-height: 40px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    outline: 0;
+    border: 0;
+    display: inline-block;
+}
+
+.format .aplicar-punicao .escolha:hover{
+    transform: scale(1.05);
+}
+
+/* ----------------------------------------------------
+-- Aviso
+---------------------------------------------------- */
+
+
+.format .criar-aviso{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    background: white;
+    border-radius: 10px;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.format .criar-aviso .title-resquest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .criar-aviso .aviso-request{
+    width: 90%;
+    height: 100px;
+    background: #f0efef;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+
+.format .criar-aviso .aviso-request img{
+    position: absolute;
+    width: 130px;
+    margin-left: 68%;
+}
+
+.format .criar-aviso .aviso-request .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .criar-aviso .aviso-request .text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.4);
+    padding-top: 2%;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.format .criar-aviso .inputFake{
+    width: 90%;
+    margin-top: 5%;
+    height: 40px;
+    margin-left: 5%;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+.format .criar-aviso .inputFake .InfInput{
+    width: 40%;
+    border-radius: 3px 5px 5px 3px;
+    height: 100%;
+    background: rgb(26, 26, 26);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.format .criar-aviso .inputFake input{
+    border: 0;
+    outline: 0;
+    width: 58%;
+    height: 100%;
+    margin-top: -8%;
+    margin-left: 42%;
+}
+
+.format .criar-aviso .criar-teleport{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 2.5%;
+    border-radius: 10px;
+    transition: all 1s;
+    height: 40px;
+    background: rgb(26, 26, 26);
+    line-height: 40px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    outline: 0;
+    border: 0;
+}
+
+.format .criar-aviso .criar-teleport:hover{
+    transform: scale(1.05);
+}
+
+.format .criar-aviso .close-teleport{
+    margin-top: -4%;
+    margin-left: 92%;
+    color: rgba(0, 0, 0, 0.3);
+    transition: all 0.7s;
+}
+
+.format .criar-aviso .close-teleport:hover{
+    color: red;
+}
+
+/* ----------------------------------------------------
+-- Ver Punicao
+---------------------------------------------------- */
+
+
+.format .ver-motivo-punicao{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50%;
+    height: 65%;
+    background: white;
+    border-radius: 10px;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.format .ver-motivo-punicao .title-resquest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .ver-motivo-punicao .aviso-request{
+    width: 90%;
+    height: 100px;
+    background: #f0efef;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+
+.format .ver-motivo-punicao .aviso-request img{
+    position: absolute;
+    width: 130px;
+    margin-left: 68%;
+}
+
+.format .ver-motivo-punicao .aviso-request .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .ver-motivo-punicao .aviso-request .text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.4);
+    padding-top: 2%;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.format .ver-motivo-punicao .motivo-request{
+    width: 90%;
+    height: 70px;
+    background: #e2e2e2;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.format .ver-motivo-punicao .iconCircle{
+    font-size: 30px;
+    margin-top: 4.3%;
+    margin-left: 5%;
+    color: rgb(49, 49, 49);
+}
+
+.format .ver-motivo-punicao .motivo-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.4);
+    width: 80%;
+    margin-top: -4.5%;
+    margin-left: 13%;
+}
+
+.format .ver-motivo-punicao .inputFake{
+    width: 90%;
+    margin-top: 3%;
+    height: 40px;
+    margin-left: 5%;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+.format .ver-motivo-punicao .inputFake .InfInput{
+    width: 40%;
+    border-radius: 3px 5px 5px 3px;
+    height: 100%;
+    background: rgb(26, 26, 26);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.format .ver-motivo-punicao .inputFake .informacao-punicao{
+    border: 0;
+    outline: 0;
+    line-height: 40px;
+    width: 58%;
+    height: 100%;
+    margin-top: -8%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-left: 42%;
+}
+
+.format .ver-motivo-punicao .criar-teleport{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 2.5%;
+    border-radius: 10px;
+    transition: all 1s;
+    height: 40px;
+    background: rgb(26, 26, 26);
+    line-height: 40px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    outline: 0;
+    border: 0;
+}
+
+.format .ver-motivo-punicao .criar-teleport:hover{
+    transform: scale(1.05);
+}
+
+.format .ver-motivo-punicao .close-teleport{
+    margin-top: -4%;
+    margin-left: 92%;
+    color: rgba(0, 0, 0, 0.3);
+    transition: all 0.7s;
+}
+
+.format .ver-motivo-punicao .close-teleport:hover{
+    color: red;
+}
+
+
+
+
+/* ----------------------------------------------------
+-- Config Usuario
+---------------------------------------------------- */
+
+
+.format .configuracao-usuario{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 55%;
+    height: 80%;
+    background: white;
+    border-radius: 10px;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.format .configuracao-usuario .title-resquest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .configuracao-usuario .aviso-request{
+    width: 90%;
+    height: 100px;
+    background: #f0efef;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+
+.format .configuracao-usuario .aviso-request img{
+    position: absolute;
+    width: 130px;
+    margin-left: 68%;
+}
+
+.format .configuracao-usuario .aviso-request .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .configuracao-usuario .aviso-request .text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.4);
+    padding-top: 2%;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.format .configuracao-usuario .inputFake{
+    width: 90%;
+    margin-top: 5%;
+    height: 40px;
+    margin-left: 5%;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+.format .configuracao-usuario .inputFake .InfInput{
+    width: 40%;
+    border-radius: 3px 5px 5px 3px;
+    height: 100%;
+    background: rgb(26, 26, 26);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.format .configuracao-usuario .inputFake input{
+    border: 0;
+    outline: 0;
+    width: 58%;
+    height: 100%;
+    margin-top: -7.45%;
+    margin-left: 42%;
+}
+
+.format .configuracao-usuario .criar-teleport{
+    width: 40%;
+    margin-left: 30%;
+    display: inline-block;
+    margin-top: 2.5%;
+    border-radius: 10px;
+    transition: all 1s;
+    height: 40px;
+    background: rgb(26, 26, 26);
+    line-height: 40px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    outline: 0;
+    border: 0;
+}
+
+.format .configuracao-usuario .criar-teleport:hover{
+    transform: scale(1.05);
+}
+
+.format .configuracao-usuario .close-teleport{
+    margin-top: -4%;
+    margin-left: 92%;
+    color: rgba(0, 0, 0, 0.3);
+    transition: all 0.7s;
+}
+
+.format .configuracao-usuario .close-teleport:hover{
+    color: red;
+}
+
+.format .configuracao-usuario .identidade-jogador{
+    width: 80%;
+    height: 57%;
+    margin-left: 10%;
+    margin-top: 3%;
+    border-radius: 10px;
+    background: #f0efef;
+}
+
+.format .configuracao-usuario .identidade-jogador .banner{
+    width: 100%;
+    height: 55%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.format .configuracao-usuario .identidade-jogador .img-perfil{
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 90px;
+    max-height: 90px;
+    margin-top: -16%;
+    margin-left: 39.4%;
+    padding: 2px;
+    border-radius: 100%;
+}
+
+.format .configuracao-usuario .identidade-jogador .nome-jogador{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin-top: 1%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.format .configuracao-usuario .identidade-jogador .editicon{
+    font-size: 14px;
+    margin-left: 1%;
+    transition: all 1s;
+}
+
+.format .configuracao-usuario .identidade-jogador .editicon:hover{
+    color: rgba(121, 53, 230, 0.7);
+}
+
+.format .configuracao-usuario .identidade-jogador .editicon2{
+    font-size: 12px;
+    margin-left: 5%;
+    transition: all 1s;
+}
+
+.format .configuracao-usuario .identidade-jogador .editicon2:hover{
+    color: rgba(121, 53, 230, 0.7);
+}
+
+
+.format .configuracao-usuario .identidade-jogador .box-identidade{
+    width: 100%;
+    height: 30%;
+}
+
+.format .configuracao-usuario .identidade-jogador .item-ide{
+    width: 130px;
+    height: 40px;
+    margin-left: 2%;
+    margin-top: 1%;
+    display: inline-block;
+}
+
+.format .configuracao-usuario .identidade-jogador .o-que-ide{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(0, 0, 0,0.6);
+}
+
+.format .configuracao-usuario .identidade-jogador .o-que-ide2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #000;
+}
+
+/* ----------------------------------------------------
+-- Ver Chat Ticket
+---------------------------------------------------- */
+
+
+.format .chat-tickets{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
+    height: 80%;
+    background: white;
+    border-radius: 10px;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.format .chat-tickets .chat-overflow{
+    width: 90%;
+    height: 57%;
+    margin-top: 2%;
+    border-radius: 10px;
+    margin-left: 5%;
+    border: 2px solid #e0e0e0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.format .chat-tickets .cima-overflow{
+    width: 100%;
+    height: 20%;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.format .chat-tickets .meio-overflow{
+    width: 100%;
+    height: 67%;
+    overflow: auto;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.format .chat-tickets .meio-overflow .mensagem{
+    width: 40%;
+    min-height: 30px;
+    border-radius: 7px 7px 7px 0px;
+    margin-left: 2%;
+    margin-top: 1%;
+    padding-bottom: 3px;
+    background: #e0e0e0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.format .chat-tickets .meio-overflow .mensagem .texto-dentro{
+    padding-top: 7.5px;
+    margin-left: 5%;
+    line-height: 20px;
+}
+
+.format .chat-tickets .meio-overflow .mensagem2{
+    width: 40%;
+    min-height: 30px;
+    border-radius: 7px 7px 0px 7px;
+    margin-left: 58%;
+    margin-top: 1%;
+    padding-bottom: 3px;
+    background: #daebf7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.format .chat-tickets .meio-overflow .mensagem2 .texto-dentro{
+    padding-top: 7.5px;
+    margin-left: 5%;
+    line-height: 20px;
+}
+
+.format .chat-tickets .meio-overflow .mensagem img{
+    min-width: 260px;
+    max-width: 260px;
+    min-height: 150px;
+    max-height: 150px;
+    margin-top: 2%;
+    border-radius: 10px;
+    margin-left: 3%;
+}
+
+.format .chat-tickets .meio-overflow .mensagem2 img{
+    min-width: 260px;
+    max-width: 260px;
+    min-height: 150px;
+    max-height: 150px;
+    margin-top: 2%;
+    border-radius: 10px;
+    margin-left: 3%;
+}
+
+.format .chat-tickets .baixo-overflow{
+    width: 100%;
+    height: 13%;
+}
+
+.format .chat-tickets .baixo-overflow .iconbaixo{
+    font-size: 20px;
+    color: #c4c2c2;
+    margin-top: 1%;
+    margin-left: 2%;
+    transition: all 1s;
+}
+
+.format .chat-tickets .baixo-overflow .iconbaixo:hover{
+    color: rgba(121, 53, 230, 0.7);
+}
+
+.format .chat-tickets .baixo-overflow .input-overflow{
+    width: 77%;
+    outline: 0;
+    border: 0;
+    background: #e0e0e0;
+    height: 25px;
+    margin-top: 0.7%;
+    margin-left: 1%;
+    position: absolute;
+    background: red;
+    border-radius: 5px;
+}
+
+
+.format .chat-tickets .cima-overflow img{
+    min-width: 45px;
+    max-width: 45px;
+    min-height: 40px;
+    max-height: 40px;
+    border-radius: 100%;
+    margin-top: 1.4%;
+    margin-left: 3%;
+}
+
+.format .chat-tickets .nome-overflow{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: -4%;
+    margin-left: 11%;
+}
+
+.format .chat-tickets .title-resquest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .chat-tickets .aviso-request{
+    width: 90%;
+    height: 100px;
+    background: #f0efef;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+
+.format .chat-tickets .aviso-request img{
+    position: absolute;
+    width: 130px;
+    margin-left: 68%;
+}
+
+.format .chat-tickets .aviso-request .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .chat-tickets .aviso-request .text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.4);
+    padding-top: 2%;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.format .chat-tickets .motivo-request{
+    width: 90%;
+    height: 70px;
+    background: #e2e2e2;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.format .chat-tickets .iconCircle{
+    font-size: 30px;
+    margin-top: 4.3%;
+    margin-left: 5%;
+    color: rgb(49, 49, 49);
+}
+
+.format .chat-tickets .motivo-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.4);
+    width: 80%;
+    margin-top: -4.5%;
+    margin-left: 13%;
+}
+
+.format .chat-tickets .inputFake{
+    width: 90%;
+    margin-top: 3%;
+    height: 40px;
+    margin-left: 5%;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+.format .chat-tickets .inputFake .InfInput{
+    width: 40%;
+    border-radius: 3px 5px 5px 3px;
+    height: 100%;
+    background: rgb(26, 26, 26);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.format .chat-tickets .inputFake .informacao-punicao{
+    border: 0;
+    outline: 0;
+    line-height: 40px;
+    width: 58%;
+    height: 100%;
+    margin-top: -8%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-left: 42%;
+}
+
+.format .chat-tickets .criar-teleport{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 2.5%;
+    border-radius: 10px;
+    transition: all 1s;
+    height: 40px;
+    background: rgb(26, 26, 26);
+    line-height: 40px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    outline: 0;
+    border: 0;
+}
+
+.format .chat-tickets .criar-teleport:hover{
+    transform: scale(1.05);
+}
+
+.format .chat-tickets .close-teleport{
+    margin-top: -4%;
+    margin-left: 92%;
+    color: rgba(0, 0, 0, 0.3);
+    transition: all 0.7s;
+}
+
+.format .chat-tickets .close-teleport:hover{
+    color: red;
+}
+
+
+/* ----------------------------------------------------
+-- Config Pegar Item
+---------------------------------------------------- */
+
+
+.format .pegar-item{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 40%;
+    height: 64%;
+    background: white;
+    border-radius: 10px;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.format .pegar-item .title-resquest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .pegar-item .aviso-request{
+    width: 90%;
+    height: 100px;
+    background: #f0efef;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+
+.format .pegar-item .aviso-request img{
+    position: absolute;
+    width: 130px;
+    margin-left: 64%;
+}
+
+.format .pegar-item .aviso-request .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .pegar-item .aviso-request .text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.4);
+    padding-top: 2%;
+    width: 70%;
+    margin-left: 5%;
+}
+
+.format .pegar-item .close-teleport{
+    margin-top: -4%;
+    margin-left: 92%;
+    color: rgba(0, 0, 0, 0.3);
+    transition: all 0.7s;
+}
+
+.format .pegar-item .close-teleport:hover{
+    color: red;
+}
+
+.format .pegar-item .item-inventario{
+    background: #f0efef;
+    width: 95px;
+    height: 95px;
+    display: inline-block;
+    margin-left: 40%;
+    margin-top: 5%;
+    border-radius: 10px;
+    transition: ease-in .7s;
+}
+
+.format .pegar-item .item-inventario .barra1{
+    width: 50%;
+    height: 6px;
+    border-radius: 10px 10px 0px 0px;
+    background: #e42121;
+    margin-left: 25%;
+}
+
+.format .pegar-item .nome-inventario{
+    text-align: center;
+    padding-top: 7px;
+    font-size: 12px;
+}
+
+.format .pegar-item img{
+    width: 40px;
+    margin-left: 30%;
+}
+
+.format .pegar-item .quantidade-item{
+    text-align: center;
+    padding-top: 2px;
+    font-size: 12px;
+}
+
+
+
+.format .pegar-item .inputFake{
+    width: 90%;
+    margin-top: 5%;
+    height: 40px;
+    margin-left: 5%;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+.format .pegar-item .inputFake .InfInput{
+    width: 40%;
+    border-radius: 3px 5px 5px 3px;
+    height: 100%;
+    background: rgb(26, 26, 26);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.format .pegar-item .inputFake input{
+    border: 0;
+    outline: 0;
+    width: 58%;
+    height: 100%;
+    margin-top: -10.1%;
+    margin-left: 42%;
+}
+
+.format .pegar-item .criar-teleport{
+    width: 40%;
+    margin-left: 30%;
+    display: inline-block;
+    margin-top: 2.5%;
+    border-radius: 10px;
+    transition: all 1s;
+    height: 40px;
+    background: rgb(26, 26, 26);
+    line-height: 40px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    outline: 0;
+    border: 0;
+}
+
+.format .pegar-item .criar-teleport:hover{
+    transform: scale(1.05);
+}
+
+/* ----------------------------------------------------
+-- Config Carro Garagem
+---------------------------------------------------- */
+
+
+.format .pegar-carro{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 40%;
+    height: 65%;
+    background: white;
+    border-radius: 10px;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.format .pegar-carro .title-resquest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .pegar-carro .aviso-request{
+    width: 90%;
+    height: 100px;
+    background: #f0efef;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+
+.format .pegar-carro .aviso-request #imagem-request{
+    position: absolute;
+    width: 130px;
+    margin-left: 64%;
+}
+
+.format .pegar-carro .aviso-request .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .pegar-carro .aviso-request .text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.4);
+    padding-top: 2%;
+    width: 70%;
+    margin-left: 5%;
+}
+
+.format .pegar-carro .close-teleport{
+    margin-top: -4%;
+    margin-left: 92%;
+    color: rgba(0, 0, 0, 0.3);
+    transition: all 0.7s;
+}
+
+.format .pegar-carro .close-teleport:hover{
+    color: red;
+}
+
+.format .pegar-carro .item-inventario{
+    background: #f0efef;
+    width: 95px;
+    height: 95px;
+    display: inline-block;
+    margin-left: 40%;
+    margin-top: 5%;
+    border-radius: 10px;
+    transition: ease-in .7s;
+}
+
+.format .pegar-carro .item-inventario .barra1{
+    width: 50%;
+    height: 6px;
+    border-radius: 10px 10px 0px 0px;
+    background: #e42121;
+    margin-left: 25%;
+    margin-top: -5%;
+}
+
+.format .pegar-carro .nome-inventario{
+    text-align: center;
+    padding-top: 7px;
+    font-size: 12px;
+    max-width: 15ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.format .pegar-carro #carropegar-img{
+    min-width: 50px;
+    max-width: 50px;
+    min-height: 35px;
+    max-height: 35px;
+    margin-left: 23.5%;
+    margin-top: 9%;
+}
+
+.format .pegar-carro .quantidade-item{
+    text-align: center;
+    padding-top: 2px;
+    font-size: 12px;
+}
+
+
+
+.format .pegar-carro .inputFake{
+    width: 90%;
+    margin-top: 5%;
+    height: 40px;
+    margin-left: 5%;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+.format .pegar-carro .inputFake .InfInput{
+    width: 40%;
+    border-radius: 3px 5px 5px 3px;
+    height: 100%;
+    background: rgb(26, 26, 26);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.format .pegar-carro .inputFake input{
+    border: 0;
+    outline: 0;
+    width: 58%;
+    height: 100%;
+    margin-top: -10.1%;
+    margin-left: 42%;
+}
+
+.format .pegar-carro .criar-teleport{
+    width: 40%;
+    margin-left: 30%;
+    display: inline-block;
+    margin-top: 2.5%;
+    border-radius: 10px;
+    transition: all 1s;
+    height: 40px;
+    background: rgb(26, 26, 26);
+    line-height: 40px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    outline: 0;
+    border: 0;
+}
+
+.format .pegar-carro .criar-teleport:hover{
+    transform: scale(1.05);
+}
+
+/* ----------------------------------------------------
+-- Config Anuncios
+---------------------------------------------------- */
+
+.format .fazer-anuncio{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50%;
+    height: 65%;
+    background: white;
+    border-radius: 10px;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.format .fazer-anuncio .title-resquest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .fazer-anuncio .aviso-request{
+    width: 90%;
+    height: 100px;
+    background: #f0efef;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+
+.format .fazer-anuncio .aviso-request #imagem-resquest{
+    position: absolute;
+    width: 130px;
+    margin-left: 64%;
+}
+
+.format .fazer-anuncio .aviso-request .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .fazer-anuncio .aviso-request .text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.4);
+    padding-top: 2%;
+    width: 70%;
+    margin-left: 5%;
+}
+
+.format .fazer-anuncio .close-teleport{
+    margin-top: -4%;
+    margin-left: 92%;
+    color: rgba(0, 0, 0, 0.3);
+    transition: all 0.7s;
+}
+
+.format .fazer-anuncio .close-teleport:hover{
+    color: red;
+}
+
+.format .fazer-anuncio .item-inventario{
+    background: #f0efef;
+    width: 95px;
+    height: 95px;
+    display: inline-block;
+    margin-left: 40%;
+    margin-top: 5%;
+    border-radius: 10px;
+    transition: ease-in .7s;
+}
+
+.format .fazer-anuncio .item-inventario .barra1{
+    width: 50%;
+    height: 6px;
+    border-radius: 10px 10px 0px 0px;
+    background: #e42121;
+    margin-left: 25%;
+    margin-top: -5%;
+}
+
+.format .fazer-anuncio .nome-inventario{
+    text-align: center;
+    padding-top: 7px;
+    font-size: 12px;
+    max-width: 15ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.format .fazer-anuncio .quantidade-item{
+    text-align: center;
+    padding-top: 2px;
+    font-size: 12px;
+}
+
+
+
+.format .fazer-anuncio .inputFake{
+    width: 90%;
+    margin-top: 14%;
+    height: 40px;
+    margin-left: 5%;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+.format .fazer-anuncio .inputFake .InfInput{
+    width: 40%;
+    border-radius: 3px 5px 5px 3px;
+    height: 100%;
+    background: rgb(26, 26, 26);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.format .fazer-anuncio .inputFake input{
+    border: 0;
+    outline: 0;
+    width: 58%;
+    height: 100%;
+    margin-top: -8.1%;
+    margin-left: 42%;
+}
+
+.format .fazer-anuncio .criar-teleport{
+    width: 40%;
+    margin-left: 30%;
+    display: inline-block;
+    margin-top: 2.5%;
+    border-radius: 10px;
+    transition: all 1s;
+    height: 40px;
+    background: rgb(26, 26, 26);
+    line-height: 40px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    outline: 0;
+    border: 0;
+}
+
+.format .fazer-anuncio .criar-teleport:hover{
+    transform: scale(1.05);
+}
+
+.format .fazer-anuncio .item-anuncio-fazer{
+    width: 40%;
+    height: 35px;
+    border-radius: 10px;
+    margin-left: 6.5%;
+    text-align: center;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+    line-height: 35px;
+    background: rgb(26, 26, 26);
+    transition: all 1s;
+    display: inline-block;
+    margin-top: 2%;
+}
+
+.format .fazer-anuncio .item-anuncio-fazer:hover{
+    transform: scale(1.05);
+}
+
+
+/* ----------------------------------------------------
+-- Ver Bau casas
+---------------------------------------------------- */
+
+.format .ver-baucasas{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 65%;
+    height: 80%;
+    background: white;
+    border-radius: 10px;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.format .ver-baucasas .title-resquest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .ver-baucasas .aviso-request{
+    width: 90%;
+    height: 100px;
+    background: #f0efef;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+.format .ver-baucasas .aviso-request img{
+    position: absolute;
+    width: 110px;
+    margin-left: 73%;
+}
+
+.format .ver-baucasas .aviso-request .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .ver-baucasas .aviso-request .text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.4);
+    padding-top: 2%;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.format .ver-baucasas .close-teleport{
+    margin-top: -4%;
+    margin-left: 92%;
+    color: rgba(0, 0, 0, 0.3);
+    transition: all 0.7s;
+}
+
+.format .ver-baucasas .close-teleport:hover{
+    color: red;
+}
+
+.format .ver-baucasas .baucasas-box{
+    width: 90%;
+    height: 50%;
+    margin-left: 5%;
+    margin-top: 1.5%;
+    overflow: auto;
+}
+
+.format .ver-baucasas .item-baucasas{
+    background: #f0efef;
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+    margin-left: 1.6%;
+    margin-top: 2%;
+    border-radius: 10px;
+    transition: ease-in .7s;
+}
+
+.format .ver-baucasas .item-baucasas .barra1{
+    width: 50%;
+    height: 6px;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 6%;
+    background: #e42121;
+    margin-left: 25%;
+}
+
+.format .ver-baucasas .remove-baucasas{
+    text-align: center;
+    margin-top: 2%;
+    color: #e42121;
+    text-shadow: 0px 0px 30px #e42121;
+    transition: all 1s;
+}
+
+.format .ver-baucasas .remove-baucasas:hover{
+    transform: scale(1.1);
+}
+
+#item-add:hover{
+    background: #dddddd;
+}
+
+.format .ver-baucasas .item-baucasas .nome-baucasas{
+    text-align: center;
+    padding-top: 7px;
+    font-size: 12px;
+}
+
+.format .ver-baucasas .item-baucasas img{
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 40px;
+    max-height: 40px;
+    margin-left: 33.7%;
+}
+
+.format .ver-baucasas .item-baucasas .quantidade-item{
+    text-align: center;
+    padding-top: 2px;
+    font-size: 12px;
+}
+
+.format .ver-baucasas .removerInv{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    border-radius: 10px;
+    background: rgb(15, 15, 15,0.3);
+}
+
+.format .ver-baucasas .b-remover{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    line-height: 95px;
+}
+
+/* ----------------------------------------------------
+-- Ver Empregos
+---------------------------------------------------- */
+
+.format .ver-empregos{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 55%;
+    height: 65%;
+    background: white;
+    border-radius: 10px;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.format .ver-empregos .title-resquest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .ver-empregos .aviso-request{
+    width: 90%;
+    height: 100px;
+    background: #f0efef;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+.format .ver-empregos .aviso-request img{
+    position: absolute;
+    width: 80px;
+    margin-left: 73%;
+}
+
+.format .ver-empregos .aviso-request .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .ver-empregos .aviso-request .text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.4);
+    padding-top: 2%;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.format .ver-empregos .close-teleport{
+    margin-top: -4%;
+    margin-left: 92%;
+    color: rgba(0, 0, 0, 0.3);
+    transition: all 0.7s;
+}
+
+.format .ver-empregos .close-teleport:hover{
+    color: red;
+}
+
+.format .ver-empregos .empregos-box{
+    width: 90%;
+    height: 44%;
+    margin-left: 5%;
+    margin-top: 1.5%;
+    overflow: auto;
+}
+
+.format .ver-empregos .item-empregos{
+    background: #f0efef;
+    width: 47.5%;
+    height: 50px;
+    display: inline-block;
+    margin-left: 1.6%;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+
+.format .ver-empregos .remove-empregos{
+    text-align: center;
+    margin-top: -13%;
+    margin-left: 86.2%;
+    color: #e42121;
+    text-shadow: 0px 0px 30px #e42121;
+    transition: all 1s;
+}
+
+.format .ver-empregos .remove-empregos:hover{
+    transform: scale(1.1);
+}
+
+.format .ver-empregos .item-empregos .barra1{
+    width: 50%;
+    height: 6px;
+    border-radius: 10px 10px 0px 0px;
+    background: #e42121;
+    margin-top: 4%;
+    margin-left: 25%;
+}
+
+.format .ver-empregos .item-empregos .nome-empregos{
+    line-height: 50px;
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    letter-spacing: .5px;
+    width: 80%;
+}
+
+.format .ver-empregos .item-empregos img{
+    min-width: 60px;
+    max-width: 60px;
+    min-height: 50px;
+    max-height: 50px;
+    margin-left: 28%;
+}
+
+.format .ver-empregos .adicionar-emprego{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 1%;
+    border-radius: 10px;
+    transition: all 1s;
+    height: 40px;
+    background: rgb(26, 26, 26);
+    line-height: 40px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    outline: 0;
+    border: 0;
+}
+
+.format .ver-empregos .adicionar-emprego:hover{
+    transform: scale(1.05);
+}
+
+
+/* ----------------------------------------------------
+-- Ver Garagem
+---------------------------------------------------- */
+
+.format .ver-addempregos{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 55%;
+    height: 65%;
+    background: white;
+    border-radius: 10px;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.format .ver-addempregos .title-resquest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .ver-addempregos .aviso-request{
+    width: 90%;
+    height: 100px;
+    background: #f0efef;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+.format .ver-addempregos .aviso-request img{
+    position: absolute;
+    width: 110px;
+    margin-left: 73%;
+}
+
+.format .ver-addempregos .aviso-request .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .ver-addempregos .aviso-request .text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.4);
+    padding-top: 2%;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.format .ver-addempregos .close-teleport{
+    margin-top: -4%;
+    margin-left: 92%;
+    color: rgba(0, 0, 0, 0.3);
+    transition: all 0.7s;
+}
+
+.format .ver-addempregos .close-teleport:hover{
+    color: red;
+}
+
+.format .ver-addempregos .addempregos-box{
+    width: 90%;
+    height: 44%;
+    margin-left: 5%;
+    margin-top: 1.5%;
+    overflow: auto;
+}
+
+.format .ver-addempregos .item-addempregos{
+    background: #f0efef;
+    width: 47.5%;
+    height: 50px;
+    display: inline-block;
+    margin-left: 1.6%;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+
+.format .ver-addempregos .remove-addempregos{
+    text-align: center;
+    margin-top: -13%;
+    margin-left: 86.2%;
+    color: #4fb320;
+    text-shadow: 0px 0px 30px #4fb320;
+    transition: all 1s;
+}
+
+.format .ver-addempregos .remove-addempregos:hover{
+    transform: scale(1.1);
+}
+
+.format .ver-addempregos .item-addempregos .barra1{
+    width: 50%;
+    height: 6px;
+    border-radius: 10px 10px 0px 0px;
+    background: #e42121;
+    margin-top: 4%;
+    margin-left: 25%;
+}
+
+.format .ver-addempregos .item-addempregos .nome-addempregos{
+    line-height: 50px;
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    letter-spacing: .5px;
+    width: 80%;
+}
+
+.format .ver-addempregos .item-addempregos img{
+    min-width: 60px;
+    max-width: 60px;
+    min-height: 50px;
+    max-height: 50px;
+    margin-left: 28%;
+}
+
+.format .ver-addempregos .adicionar-addempregos{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 1%;
+    border-radius: 10px;
+    transition: all 1s;
+    height: 40px;
+    background: rgb(26, 26, 26);
+    line-height: 40px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    outline: 0;
+    border: 0;
+}
+
+.format .ver-addempregos .adicionar-addempregos:hover{
+    transform: scale(1.05);
+}
+
+/* ----------------------------------------------------
+-- Ver Bau casas
+---------------------------------------------------- */
+
+.format .ver-baucarro{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 65%;
+    height: 80%;
+    background: white;
+    border-radius: 10px;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.format .ver-baucarro .title-resquest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .ver-baucarro .aviso-request{
+    width: 90%;
+    height: 100px;
+    background: #f0efef;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+.format .ver-baucarro .aviso-request img{
+    position: absolute;
+    width: 110px;
+    margin-left: 73%;
+}
+
+.format .ver-baucarro .aviso-request .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .ver-baucarro .aviso-request .text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.4);
+    padding-top: 2%;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.format .ver-baucarro .close-teleport{
+    margin-top: -4%;
+    margin-left: 92%;
+    color: rgba(0, 0, 0, 0.3);
+    transition: all 0.7s;
+}
+
+.format .ver-baucarro .close-teleport:hover{
+    color: red;
+}
+
+.format .ver-baucarro .baucarro-box{
+    width: 90%;
+    height: 50%;
+    margin-left: 5%;
+    margin-top: 1.5%;
+    overflow: auto;
+}
+
+.format .ver-baucarro .item-baucarro{
+    background: #f0efef;
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+    margin-left: 1.6%;
+    margin-top: 2%;
+    border-radius: 10px;
+    transition: ease-in .7s;
+}
+
+.format .ver-baucarro .item-baucarro .barra1{
+    width: 60%;
+    height: 6px;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 5%;
+    background: #e42121;
+    margin-left: 20%;
+}
+
+.format .ver-baucarro .item-baucarro .barra2{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    height: 100%;
+}
+
+
+.format .ver-baucarro .remove-baucarro{
+    text-align: center;
+    margin-top: 2%;
+    color: #e42121;
+    text-shadow: 0px 0px 30px #e42121;
+    transition: all 1s;
+}
+
+.format .ver-baucarro .remove-baucarro:hover{
+    transform: scale(1.1);
+}
+
+#item-add:hover{
+    background: #dddddd;
+}
+
+.format .ver-baucarro .item-baucarro .nome-baucarro{
+    text-align: center;
+    padding-top: 7px;
+    font-size: 12px;
+}
+
+.format .ver-baucarro .item-baucarro img{
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 40px;
+    max-height: 40px;
+    margin-left: 33.7%;
+}
+
+.format .ver-baucarro .item-baucarro .quantidade-item{
+    text-align: center;
+    padding-top: 2px;
+    font-size: 12px;
+}
+
+.format .ver-baucarro .removerInv{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    border-radius: 10px;
+    background: rgb(15, 15, 15,0.3);
+}
+
+.format .ver-baucarro .b-remover{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    line-height: 95px;
+}
+
+
+.format .setarID{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    background: white;
+    border-radius: 10px;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.format .setarID .title-resquest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .setarID .aviso-request{
+    width: 90%;
+    height: 100px;
+    background: #f0efef;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+
+.format .setarID .aviso-request img{
+    position: absolute;
+    width: 110px;
+    margin-left: 73%;
+}
+
+.format .setarID .aviso-request .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .setarID .aviso-request .text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.4);
+    padding-top: 2%;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.format .setarID .inputFake{
+    width: 90%;
+    margin-top: 5%;
+    height: 40px;
+    margin-left: 5%;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+.format .setarID .inputFake .InfInput{
+    width: 40%;
+    border-radius: 3px 5px 5px 3px;
+    height: 100%;
+    background: rgb(26, 26, 26);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.format .setarID .inputFake input{
+    border: 0;
+    outline: 0;
+    width: 58%;
+    height: 100%;
+    margin-top: -8%;
+    margin-left: 42%;
+}
+
+.format .setarID .criar-teleport{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 2.5%;
+    border-radius: 10px;
+    transition: all 1s;
+    height: 40px;
+    background: rgb(26, 26, 26);
+    line-height: 40px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    outline: 0;
+    border: 0;
+}
+
+.format .setarID .criar-teleport:hover{
+    transform: scale(1.05);
+}
+
+.format .setarID .close-teleport{
+    margin-top: -4%;
+    margin-left: 92%;
+    color: rgba(0, 0, 0, 0.3);
+    transition: all 0.7s;
+}
+
+.format .setarID .close-teleport:hover{
+    color: red;
+}
+
+
+
+
+
+
+
+.format .trocar-nome{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50%;
+    height: 60%;
+    background: white;
+    border-radius: 10px;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.format .trocar-nome .title-resquest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .trocar-nome .aviso-request{
+    width: 90%;
+    height: 100px;
+    background: #f0efef;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+
+.format .trocar-nome .aviso-request img{
+    position: absolute;
+    width: 110px;
+    margin-top: 3%;
+    margin-left: 70%;
+}
+
+.format .trocar-nome .aviso-request .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .trocar-nome .aviso-request .text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.4);
+    padding-top: 2%;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.format .trocar-nome .inputFake{
+    width: 90%;
+    margin-top: 5%;
+    height: 40px;
+    margin-left: 5%;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+.format .trocar-nome .inputFake .InfInput{
+    width: 40%;
+    border-radius: 3px 5px 5px 3px;
+    height: 100%;
+    background: rgb(26, 26, 26);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.format .trocar-nome .inputFake input{
+    border: 0;
+    outline: 0;
+    width: 58%;
+    height: 100%;
+    margin-top: -8%;
+    margin-left: 42%;
+}
+
+.format .trocar-nome .criar-teleport{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 2.5%;
+    border-radius: 10px;
+    transition: all 1s;
+    height: 40px;
+    background: rgb(26, 26, 26);
+    line-height: 40px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    outline: 0;
+    border: 0;
+}
+
+.format .trocar-nome .criar-teleport:hover{
+    transform: scale(1.05);
+}
+
+.format .trocar-nome .close-teleport{
+    margin-top: -4%;
+    margin-left: 92%;
+    color: rgba(0, 0, 0, 0.3);
+    transition: all 0.7s;
+}
+
+.format .trocar-nome .close-teleport:hover{
+    color: red;
+}
+
+
+
+.format .trocar-carteira{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50%;
+    height: 60%;
+    background: white;
+    border-radius: 10px;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.format .trocar-carteira .select-carteira{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 2%;
+    margin-top: 5%;
+    transition: all 1s;
+    
+}
+
+.active{
+    background: #000;
+    color: #fff;
+}
+
+.format .trocar-carteira .select-carteira:hover{
+    background: #000;
+    color: #fff;
+}
+
+.format .trocar-carteira .select-carteira .fa-plus{
+    margin-top: 30%;
+}
+
+.format .trocar-carteira .select-carteira .fa-minus{
+    margin-top: 30%;
+}
+
+.format .trocar-carteira .title-resquest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .trocar-carteira .aviso-request{
+    width: 90%;
+    height: 100px;
+    background: #f0efef;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+
+.format .trocar-carteira .aviso-request img{
+    position: absolute;
+    width: 110px;
+    margin-top: 3%;
+    margin-left: 70%;
+}
+
+.format .trocar-carteira .aviso-request .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .trocar-carteira .aviso-request .text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.4);
+    padding-top: 2%;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.format .trocar-carteira .inputFake{
+    width: 90%;
+    margin-top: 5%;
+    height: 40px;
+    margin-left: 5%;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+.format .trocar-carteira .inputFake .InfInput{
+    width: 40%;
+    border-radius: 3px 5px 5px 3px;
+    height: 100%;
+    background: rgb(26, 26, 26);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.format .trocar-carteira .inputFake input{
+    border: 0;
+    outline: 0;
+    width: 58%;
+    height: 100%;
+    margin-top: -8%;
+    margin-left: 42%;
+}
+
+.format .trocar-carteira .criar-teleport{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 2.5%;
+    border-radius: 10px;
+    transition: all 1s;
+    height: 40px;
+    background: rgb(26, 26, 26);
+    line-height: 40px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    outline: 0;
+    border: 0;
+}
+
+.format .trocar-carteira .criar-teleport:hover{
+    transform: scale(1.05);
+}
+
+.format .trocar-carteira .close-teleport{
+    margin-top: -4%;
+    margin-left: 92%;
+    color: rgba(0, 0, 0, 0.3);
+    transition: all 0.7s;
+}
+
+.format .trocar-carteira .close-teleport:hover{
+    color: red;
+}
+
+
+
+
+
+.format .trocar-banco{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50%;
+    height: 60%;
+    background: white;
+    border-radius: 10px;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.format .trocar-banco .select-carteira{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 2%;
+    margin-top: 5%;
+    transition: all 1s;
+    
+}
+
+.format .trocar-banco .select-carteira:hover{
+    background: #000;
+    color: #fff;
+}
+
+.format .trocar-banco .select-carteira .fa-plus{
+    margin-top: 30%;
+}
+
+.format .trocar-banco .select-carteira .fa-minus{
+    margin-top: 30%;
+}
+
+.format .trocar-banco .title-resquest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .trocar-banco .aviso-request{
+    width: 90%;
+    height: 100px;
+    background: #f0efef;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+
+.format .trocar-banco .aviso-request img{
+    position: absolute;
+    width: 110px;
+    margin-top: 3%;
+    margin-left: 70%;
+}
+
+.format .trocar-banco .aviso-request .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .trocar-banco .aviso-request .text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.4);
+    padding-top: 2%;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.format .trocar-banco .inputFake{
+    width: 90%;
+    margin-top: 5%;
+    height: 40px;
+    margin-left: 5%;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+.format .trocar-banco .inputFake .InfInput{
+    width: 40%;
+    border-radius: 3px 5px 5px 3px;
+    height: 100%;
+    background: rgb(26, 26, 26);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.format .trocar-banco .inputFake input{
+    border: 0;
+    outline: 0;
+    width: 58%;
+    height: 100%;
+    margin-top: -8%;
+    margin-left: 42%;
+}
+
+.format .trocar-banco .criar-teleport{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 2.5%;
+    border-radius: 10px;
+    transition: all 1s;
+    height: 40px;
+    background: rgb(26, 26, 26);
+    line-height: 40px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    outline: 0;
+    border: 0;
+}
+
+.format .trocar-banco .criar-teleport:hover{
+    transform: scale(1.05);
+}
+
+.format .trocar-banco .close-teleport{
+    margin-top: -4%;
+    margin-left: 92%;
+    color: rgba(0, 0, 0, 0.3);
+    transition: all 0.7s;
+}
+
+.format .trocar-banco .close-teleport:hover{
+    color: red;
+}
+
+
+
+.format .trocar-celular{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    background: white;
+    border-radius: 10px;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.format .trocar-celular .select-carteira{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 2%;
+    margin-top: 5%;
+    transition: all 1s;
+    
+}
+
+.format .trocar-celular .select-carteira:hover{
+    background: #000;
+    color: #fff;
+}
+
+.format .trocar-celular .select-carteira .fa-plus{
+    margin-top: 30%;
+}
+
+.format .trocar-celular .select-carteira .fa-minus{
+    margin-top: 30%;
+}
+
+.format .trocar-celular .title-resquest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .trocar-celular .aviso-request{
+    width: 90%;
+    height: 100px;
+    background: #f0efef;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+
+.format .trocar-celular .aviso-request img{
+    position: absolute;
+    width: 110px;
+    margin-top: 3%;
+    margin-left: 70%;
+}
+
+.format .trocar-celular .aviso-request .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .trocar-celular .aviso-request .text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.4);
+    padding-top: 2%;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.format .trocar-celular .inputFake{
+    width: 90%;
+    margin-top: 5%;
+    height: 40px;
+    margin-left: 5%;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+.format .trocar-celular .inputFake .InfInput{
+    width: 40%;
+    border-radius: 3px 5px 5px 3px;
+    height: 100%;
+    background: rgb(26, 26, 26);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.format .trocar-celular .inputFake input{
+    border: 0;
+    outline: 0;
+    width: 58%;
+    height: 100%;
+    margin-top: -8%;
+    margin-left: 42%;
+}
+
+.format .trocar-celular .criar-teleport{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 2.5%;
+    border-radius: 10px;
+    transition: all 1s;
+    height: 40px;
+    background: rgb(26, 26, 26);
+    line-height: 40px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    outline: 0;
+    border: 0;
+}
+
+.format .trocar-celular .criar-teleport:hover{
+    transform: scale(1.05);
+}
+
+.format .trocar-celular .close-teleport{
+    margin-top: -4%;
+    margin-left: 92%;
+    color: rgba(0, 0, 0, 0.3);
+    transition: all 0.7s;
+}
+
+.format .trocar-celular .close-teleport:hover{
+    color: red;
+}
+
+
+
+
+
+.format .trocar-registro{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    background: white;
+    border-radius: 10px;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.format .trocar-registro .select-carteira{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 2%;
+    margin-top: 5%;
+    transition: all 1s;
+    
+}
+
+.format .trocar-registro .select-carteira:hover{
+    background: #000;
+    color: #fff;
+}
+
+.format .trocar-registro .select-carteira .fa-plus{
+    margin-top: 30%;
+}
+
+.format .trocar-registro .select-carteira .fa-minus{
+    margin-top: 30%;
+}
+
+.format .trocar-registro .title-resquest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .trocar-registro .aviso-request{
+    width: 90%;
+    height: 100px;
+    background: #f0efef;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+
+.format .trocar-registro .aviso-request img{
+    position: absolute;
+    width: 110px;
+    margin-top: 3%;
+    margin-left: 70%;
+}
+
+.format .trocar-registro .aviso-request .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .trocar-registro .aviso-request .text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.4);
+    padding-top: 2%;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.format .trocar-registro .inputFake{
+    width: 90%;
+    margin-top: 5%;
+    height: 40px;
+    margin-left: 5%;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+.format .trocar-registro .inputFake .InfInput{
+    width: 40%;
+    border-radius: 3px 5px 5px 3px;
+    height: 100%;
+    background: rgb(26, 26, 26);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.format .trocar-registro .inputFake input{
+    border: 0;
+    outline: 0;
+    width: 58%;
+    height: 100%;
+    margin-top: -8%;
+    margin-left: 42%;
+}
+
+.format .trocar-registro .criar-teleport{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 2.5%;
+    border-radius: 10px;
+    transition: all 1s;
+    height: 40px;
+    background: rgb(26, 26, 26);
+    line-height: 40px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    outline: 0;
+    border: 0;
+}
+
+.format .trocar-registro .criar-teleport:hover{
+    transform: scale(1.05);
+}
+
+.format .trocar-registro .close-teleport{
+    margin-top: -4%;
+    margin-left: 92%;
+    color: rgba(0, 0, 0, 0.3);
+    transition: all 0.7s;
+}
+
+.format .trocar-registro .close-teleport:hover{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+.format .ver-screenshot{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50%;
+    height: 70%;
+    background: white;
+    border-radius: 10px;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.format .ver-screenshot .select-carteira{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 2%;
+    margin-top: 5%;
+    transition: all 1s;
+    
+}
+
+.format .ver-screenshot .select-carteira:hover{
+    background: #000;
+    color: #fff;
+}
+
+.format .ver-screenshot .select-carteira .fa-plus{
+    margin-top: 30%;
+}
+
+.format .ver-screenshot .select-carteira .fa-minus{
+    margin-top: 30%;
+}
+
+.format .ver-screenshot .title-resquest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .ver-screenshot .aviso-request{
+    width: 90%;
+    height: 100px;
+    background: #f0efef;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+
+.format .ver-screenshot .aviso-request img{
+    position: absolute;
+    width: 110px;
+    margin-top: 3%;
+    margin-left: 70%;
+}
+
+.format .ver-screenshot .aviso-request .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .ver-screenshot .aviso-request .text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.4);
+    padding-top: 2%;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.format .ver-screenshot .inputFake{
+    width: 90%;
+    margin-top: 5%;
+    height: 40px;
+    margin-left: 5%;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+.format .ver-screenshot .inputFake .InfInput{
+    width: 40%;
+    border-radius: 3px 5px 5px 3px;
+    height: 100%;
+    background: rgb(26, 26, 26);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.format .ver-screenshot .inputFake input{
+    border: 0;
+    outline: 0;
+    width: 58%;
+    height: 100%;
+    margin-top: -8%;
+    margin-left: 42%;
+}
+
+.format .ver-screenshot .criar-teleport{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 2.5%;
+    border-radius: 10px;
+    transition: all 1s;
+    height: 40px;
+    background: rgb(26, 26, 26);
+    line-height: 40px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    outline: 0;
+    border: 0;
+}
+
+.format .ver-screenshot .criar-teleport:hover{
+    transform: scale(1.05);
+}
+
+.format .ver-screenshot .close-teleport{
+    margin-top: -4%;
+    margin-left: 92%;
+    color: rgba(0, 0, 0, 0.3);
+    transition: all 0.7s;
+}
+
+.format .ver-screenshot .close-teleport:hover{
+    color: red;
+}
+
+.format .ver-screenshot .img-screenshot{
+    width: 80%;
+    height: 50%;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+
+
+.format .enviar-mensagem{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    background: white;
+    border-radius: 10px;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.format .enviar-mensagem .select-carteira{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 2%;
+    margin-top: 5%;
+    transition: all 1s;
+    
+}
+
+.format .enviar-mensagem .select-carteira:hover{
+    background: #000;
+    color: #fff;
+}
+
+.format .enviar-mensagem .select-carteira .fa-plus{
+    margin-top: 30%;
+}
+
+.format .enviar-mensagem .select-carteira .fa-minus{
+    margin-top: 30%;
+}
+
+.format .enviar-mensagem .title-resquest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .enviar-mensagem .aviso-request{
+    width: 90%;
+    height: 100px;
+    background: #f0efef;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+
+.format .enviar-mensagem .aviso-request img{
+    position: absolute;
+    width: 110px;
+    margin-top: 3%;
+    margin-left: 70%;
+}
+
+.format .enviar-mensagem .aviso-request .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .enviar-mensagem .aviso-request .text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.4);
+    padding-top: 2%;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.format .enviar-mensagem .inputFake{
+    width: 90%;
+    margin-top: 5%;
+    height: 40px;
+    margin-left: 5%;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+.format .enviar-mensagem .inputFake .InfInput{
+    width: 40%;
+    border-radius: 3px 5px 5px 3px;
+    height: 100%;
+    background: rgb(26, 26, 26);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.format .enviar-mensagem .inputFake input{
+    border: 0;
+    outline: 0;
+    width: 58%;
+    height: 100%;
+    margin-top: -8%;
+    margin-left: 42%;
+}
+
+.format .enviar-mensagem .criar-teleport{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 2.5%;
+    border-radius: 10px;
+    transition: all 1s;
+    height: 40px;
+    background: rgb(26, 26, 26);
+    line-height: 40px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    outline: 0;
+    border: 0;
+}
+
+.format .enviar-mensagem .criar-teleport:hover{
+    transform: scale(1.05);
+}
+
+.format .enviar-mensagem .close-teleport{
+    margin-top: -4%;
+    margin-left: 92%;
+    color: rgba(0, 0, 0, 0.3);
+    transition: all 0.7s;
+}
+
+.format .enviar-mensagem .close-teleport:hover{
+    color: red;
+}
+
+
+
+.format .lista-skin{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 75%;
+    height: 85%;
+    background: white;
+    border-radius: 10px;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.format .lista-skin .select-carteira{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 2%;
+    margin-top: 5%;
+    transition: all 1s;
+    
+}
+
+.format .lista-skin .select-carteira:hover{
+    background: #000;
+    color: #fff;
+}
+
+.format .lista-skin .select-carteira .fa-plus{
+    margin-top: 30%;
+}
+
+.format .lista-skin .select-carteira .fa-minus{
+    margin-top: 30%;
+}
+
+.format .lista-skin .title-resquest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .lista-skin .aviso-request{
+    width: 90%;
+    height: 100px;
+    background: #f0efef;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+
+.format .lista-skin .aviso-request img{
+    position: absolute;
+    width: 110px;
+    margin-top: 2%;
+    margin-left: 75%;
+}
+
+.format .lista-skin .aviso-request .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .lista-skin .aviso-request .text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.4);
+    padding-top: 2%;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.format .lista-skin .inputFake{
+    width: 90%;
+    margin-top: 5%;
+    height: 40px;
+    margin-left: 5%;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+.format .lista-skin .inputFake .InfInput{
+    width: 40%;
+    border-radius: 3px 5px 5px 3px;
+    height: 100%;
+    background: rgb(26, 26, 26);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.format .lista-skin .inputFake input{
+    border: 0;
+    outline: 0;
+    width: 58%;
+    height: 100%;
+    margin-top: -8%;
+    margin-left: 42%;
+}
+
+.format .lista-skin .criar-teleport{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 2.5%;
+    border-radius: 10px;
+    transition: all 1s;
+    height: 40px;
+    background: rgb(26, 26, 26);
+    line-height: 40px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    outline: 0;
+    border: 0;
+}
+
+.format .lista-skin .criar-teleport:hover{
+    transform: scale(1.05);
+}
+
+.format .lista-skin .close-teleport{
+    margin-top: -4%;
+    margin-left: 92%;
+    color: rgba(0, 0, 0, 0.3);
+    transition: all 0.7s;
+}
+
+.format .lista-skin .close-teleport:hover{
+    color: red;
+}
+
+.format .lista-skin .overflowskins{
+    width: 90%;
+    height: 60%;
+    overflow: auto;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.format .lista-skin .overflowskins .item-overflowskins{
+    width: 30.3%;
+    margin-top: 2%;
+    margin-left: 2%;
+    height: 70%;
+    background: #f0efef;
+    border-radius: 10px;
+    display: inline-block;
+    transition: all 1s;
+}
+
+.format .lista-skin .overflowskins .item-overflowskins:hover{
+    background: #b9b9b9;
+}
+
+.format .lista-skin .overflowskins .item-overflowskins .nome-skin{
+    text-align: center;
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #6C63FF;
+    font-weight: bold;
+    text-shadow: 0px 0px 30px #6C63FF;  
+}
+
+.set-skin{
+    text-align: center;
+    margin-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #000;
+}
+
+.img-skin{
+    min-width: 80%;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    min-height: 73%;
+    max-height: 73%;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------
+-- Ver Bau Fac
+---------------------------------------------------- */
+
+.format .ver-baufac{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 65%;
+    height: 80%;
+    background: white;
+    border-radius: 10px;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.format .ver-baufac .title-resquest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .ver-baufac .aviso-request{
+    width: 90%;
+    height: 100px;
+    background: #f0efef;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+.format .ver-baufac .aviso-request img{
+    position: absolute;
+    width: 110px;
+    margin-left: 73%;
+}
+
+.format .ver-baufac .aviso-request .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .ver-baufac .aviso-request .text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.4);
+    padding-top: 2%;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.format .ver-baufac .close-teleport{
+    margin-top: -4%;
+    margin-left: 92%;
+    color: rgba(0, 0, 0, 0.3);
+    transition: all 0.7s;
+}
+
+.format .ver-baufac .close-teleport:hover{
+    color: red;
+}
+
+.format .ver-baufac .baufac-box{
+    width: 90%;
+    height: 50%;
+    margin-left: 5%;
+    margin-top: 1.5%;
+    overflow: auto;
+}
+
+.format .ver-baufac .item-baufac{
+    background: #f0efef;
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+    margin-left: 1.6%;
+    margin-top: 2%;
+    border-radius: 10px;
+    transition: ease-in .7s;
+}
+
+.format .ver-baufac .item-baufac .barra1{
+    width: 50%;
+    height: 6px;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 6%;
+    background: #e42121;
+    margin-left: 25%;
+}
+
+.format .ver-baufac .remove-baufac{
+    text-align: center;
+    margin-top: 2%;
+    color: #e42121;
+    text-shadow: 0px 0px 30px #e42121;
+    transition: all 1s;
+}
+
+.format .ver-baufac .remove-baufac:hover{
+    transform: scale(1.1);
+}
+
+#item-add:hover{
+    background: #dddddd;
+}
+
+.format .ver-baufac .item-baufac .nome-baufac{
+    text-align: center;
+    padding-top: 7px;
+    font-size: 12px;
+}
+
+.format .ver-baufac .item-baufac img{
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 40px;
+    max-height: 40px;
+    margin-left: 33.7%;
+}
+
+.format .ver-baufac .item-baufac .quantidade-item{
+    text-align: center;
+    padding-top: 2px;
+    font-size: 12px;
+}
+
+.format .ver-baufac .removerInv{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    border-radius: 10px;
+    background: rgb(15, 15, 15,0.3);
+}
+
+.format .ver-baufac .b-remover{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    line-height: 95px;
+}
+
+
+
+
+
+
+/* ----------------------------------------------------
+-- Ver Groups
+---------------------------------------------------- */
+
+.format .ver-groups{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 70%;
+    height: 80%;
+    background: white;
+    border-radius: 10px;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.format .ver-groups .title-resquest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .ver-groups .aviso-request{
+    width: 90%;
+    height: 100px;
+    background: #f0efef;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+.format .ver-groups .aviso-request img{
+    position: absolute;
+    width: 110px;
+    margin-left: 73%;
+}
+
+.format .ver-groups .aviso-request .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .ver-groups .aviso-request .text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.4);
+    padding-top: 2%;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.format .ver-groups .close-teleport{
+    margin-top: -4%;
+    margin-left: 92%;
+    color: rgba(0, 0, 0, 0.3);
+    transition: all 0.7s;
+}
+
+.format .ver-groups .close-teleport:hover{
+    color: red;
+}
+
+.format .ver-groups .groups-box{
+    width: 90%;
+    height: 50%;
+    margin-left: 5%;
+    margin-top: 1.5%;
+    overflow: auto;
+}
+
+.format .ver-groups .item-groups{
+    background: #f0efef;
+    width: 160px;
+    height: 180px;
+    display: inline-block;
+    margin-left: 1%;
+    margin-top: 2%;
+    border-radius: 10px;
+    transition: ease-in .7s;
+}
+
+
+.format .ver-groups .item-groups img{
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
+    margin-left: 22.5%;
+    margin-top: 5%;
+    padding: 2px;
+    border: 2px solid #6C63FF;
+    border-radius: 50%;
+}
+
+
+.format .ver-groups .nome-groups{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 10%;
+    text-align: center;
+    font-weight: bold;
+    color: #6C63FF;
+    text-shadow: 0px 0px 30px #6C63FF;  
+}
+
+.format .ver-groups .cargo-groups{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-top: 2%;
+    text-align: center;
+    color: #494949;
+}
+
+.format .ver-groups .opcoes-div{
+    width: 100%;
+    text-align: center;
+}
+
+.format .ver-groups .opcoes-cargo{
+    margin-left: 8%;
+    margin-top: 5%;
+    color: #e42121;
+    text-shadow: 0px 0px 30px #e42121;
+    font-size: 18px;
+    transition: all 1s;
+    display: inline-block;
+}
+
+.format .ver-groups .opcoes-cargo.upgrade{
+    color: #259b1a;
+    text-shadow: 0px 0px 30px #259b1a;
+}
+
+.format .ver-groups .opcoes-cargo.downgrade{
+    color: #6C63FF;
+    text-shadow: 0px 0px 30px #6C63FF; 
+}
+
+
+
+
+
+
+
+
+
+
+
+.format .setarID2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    background: white;
+    border-radius: 10px;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.format .setarID2 .title-resquest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .setarID2 .aviso-request{
+    width: 90%;
+    height: 100px;
+    background: #f0efef;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+
+.format .setarID2 .aviso-request img{
+    position: absolute;
+    width: 110px;
+    margin-left: 73%;
+}
+
+.format .setarID2 .aviso-request .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .setarID2 .aviso-request .text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.4);
+    padding-top: 2%;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.format .setarID2 .inputFake{
+    width: 90%;
+    margin-top: 5%;
+    height: 40px;
+    margin-left: 5%;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+.format .setarID2 .inputFake .InfInput{
+    width: 40%;
+    border-radius: 3px 5px 5px 3px;
+    height: 100%;
+    background: rgb(26, 26, 26);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.format .setarID2 .inputFake input{
+    border: 0;
+    outline: 0;
+    width: 58%;
+    height: 100%;
+    margin-top: -8%;
+    margin-left: 42%;
+}
+
+.format .setarID2 .criar-teleport{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 2.5%;
+    border-radius: 10px;
+    transition: all 1s;
+    height: 40px;
+    background: rgb(26, 26, 26);
+    line-height: 40px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    outline: 0;
+    border: 0;
+}
+
+.format .setarID2 .criar-teleport:hover{
+    transform: scale(1.05);
+}
+
+.format .setarID2 .close-teleport{
+    margin-top: -4%;
+    margin-left: 92%;
+    color: rgba(0, 0, 0, 0.3);
+    transition: all 0.7s;
+}
+
+.format .setarID2 .close-teleport:hover{
+    color: red;
+}
+
+
+
+/* ----------------------------------------------------
+-- Aplicar Ban
+---------------------------------------------------- */
+
+
+.format .aplicar-ban{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    background: white;
+    border-radius: 10px;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.format .aplicar-ban .title-resquest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .aplicar-ban .aviso-request{
+    width: 90%;
+    height: 100px;
+    background: #f0efef;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+
+.format .aplicar-ban .aviso-request img{
+    position: absolute;
+    width: 130px;
+    margin-left: 68%;
+}
+
+.format .aplicar-ban .aviso-request .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .aplicar-ban .aviso-request .text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.4);
+    padding-top: 2%;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.format .aplicar-ban .inputFake{
+    width: 90%;
+    margin-top: 5%;
+    height: 40px;
+    margin-left: 5%;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+.format .aplicar-ban .inputFake .InfInput{
+    width: 40%;
+    border-radius: 3px 5px 5px 3px;
+    height: 100%;
+    background: rgb(26, 26, 26);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.format .aplicar-ban .inputFake input{
+    border: 0;
+    outline: 0;
+    width: 58%;
+    height: 100%;
+    margin-top: -8%;
+    margin-left: 42%;
+}
+
+.format .aplicar-ban .criar-teleport{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 2.5%;
+    border-radius: 10px;
+    transition: all 1s;
+    height: 40px;
+    background: rgb(26, 26, 26);
+    line-height: 40px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    outline: 0;
+    border: 0;
+}
+
+.format .aplicar-ban .criar-teleport:hover{
+    transform: scale(1.05);
+}
+
+.format .aplicar-ban .close-teleport{
+    margin-top: -4%;
+    margin-left: 92%;
+    color: rgba(0, 0, 0, 0.3);
+    transition: all 0.7s;
+}
+
+.format .aplicar-ban .close-teleport:hover{
+    color: red;
+}
+
+
+/* ----------------------------------------------------
+-- Aplicar Adv
+---------------------------------------------------- */
+
+
+.format .aplicar-adv{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    background: white;
+    border-radius: 10px;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.format .aplicar-adv .title-resquest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .aplicar-adv .aviso-request{
+    width: 90%;
+    height: 100px;
+    background: #f0efef;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+
+.format .aplicar-adv .aviso-request img{
+    position: absolute;
+    width: 130px;
+    margin-left: 68%;
+}
+
+.format .aplicar-adv .aviso-request .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .aplicar-adv .aviso-request .text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.4);
+    padding-top: 2%;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.format .aplicar-adv .inputFake{
+    width: 90%;
+    margin-top: 5%;
+    height: 40px;
+    margin-left: 5%;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+.format .aplicar-adv .inputFake .InfInput{
+    width: 40%;
+    border-radius: 3px 5px 5px 3px;
+    height: 100%;
+    background: rgb(26, 26, 26);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.format .aplicar-adv .inputFake input{
+    border: 0;
+    outline: 0;
+    width: 58%;
+    height: 100%;
+    margin-top: -8%;
+    margin-left: 42%;
+}
+
+.format .aplicar-adv .criar-teleport{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 2.5%;
+    border-radius: 10px;
+    transition: all 1s;
+    height: 40px;
+    background: rgb(26, 26, 26);
+    line-height: 40px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    outline: 0;
+    border: 0;
+}
+
+.format .aplicar-adv .criar-teleport:hover{
+    transform: scale(1.05);
+}
+
+.format .aplicar-adv .close-teleport{
+    margin-top: -4%;
+    margin-left: 92%;
+    color: rgba(0, 0, 0, 0.3);
+    transition: all 0.7s;
+}
+
+.format .aplicar-adv .close-teleport:hover{
+    color: red;
+}
+
+/* ----------------------------------------------------
+-- Aplicar Ban
+---------------------------------------------------- */
+
+
+.format .aplicar-kick{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    background: white;
+    border-radius: 10px;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.format .aplicar-kick .title-resquest{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .aplicar-kick .aviso-request{
+    width: 90%;
+    height: 100px;
+    background: #f0efef;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+
+.format .aplicar-kick .aviso-request img{
+    position: absolute;
+    width: 130px;
+    margin-left: 68%;
+}
+
+.format .aplicar-kick .aviso-request .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.format .aplicar-kick .aviso-request .text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.4);
+    padding-top: 2%;
+    width: 80%;
+    margin-left: 5%;
+}
+
+.format .aplicar-kick .inputFake{
+    width: 90%;
+    margin-top: 5%;
+    height: 40px;
+    margin-left: 5%;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+.format .aplicar-kick .inputFake .InfInput{
+    width: 40%;
+    border-radius: 3px 5px 5px 3px;
+    height: 100%;
+    background: rgb(26, 26, 26);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.format .aplicar-kick .inputFake input{
+    border: 0;
+    outline: 0;
+    width: 58%;
+    height: 100%;
+    margin-top: -8%;
+    margin-left: 42%;
+}
+
+.format .aplicar-kick .criar-teleport{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 2.5%;
+    border-radius: 10px;
+    transition: all 1s;
+    height: 40px;
+    background: rgb(26, 26, 26);
+    line-height: 40px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    outline: 0;
+    border: 0;
+}
+
+.format .aplicar-kick .criar-teleport:hover{
+    transform: scale(1.05);
+}
+
+.format .aplicar-kick .close-teleport{
+    margin-top: -4%;
+    margin-left: 92%;
+    color: rgba(0, 0, 0, 0.3);
+    transition: all 0.7s;
+}
+
+.format .aplicar-kick .close-teleport:hover{
+    color: red;
+}

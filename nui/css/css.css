@@ -1,0 +1,2047 @@
+html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-family: "Mukta", sans-serif;
+    width: 100%;
+    height: 100%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow-block: hidden;
+    overflow: hidden;
+    display: none;
+}
+
+body::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,0.1825105042016807) 0%, rgba(35, 38, 53, 0.8) 100%);
+}  
+
+.container{
+    width: 1100px;
+    height: 650px;
+    background: #f0efef;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 20px;
+    border: 8px solid black;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.container .lado{
+    width: 20%;
+    height: 100%;
+}
+
+.container .lado .title-part{
+    width: 100%;
+    height: 15%;
+    margin-top: -1%;
+}
+
+.container .lado .iconeLado{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    top: 25%;
+    left: 10%;
+    border: 1px solid rgb(0, 0, 0,0.3);
+}
+
+
+.container .lado .fa-bars{
+    text-align: center;
+    margin-top: 30%;
+    font-size: 13px;
+    color: #6C63FF;
+    text-shadow: 0px 0px 30px #6C63FF;
+}
+
+.container .lado .textLado{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #000;
+    position: relative;
+    top: 0%;
+    left: 30%;
+}
+
+.container .lado .textLado2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.3);
+    position: relative;
+    top: 15%;
+    left: 10%;
+    width: 80%;
+}
+
+
+
+.container .lado .butaoLado{
+    width: 90%;
+    margin-top: 2%;
+    margin-left: 5%;
+    height: 40px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 17px;
+    line-height: 35px;
+    outline: 0;
+    border: 0;
+    text-align: left;
+    background: rgba(0, 0, 0, 0.1);
+    transition: all 1s;
+}
+
+.container .lado .butaoLado:hover{
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.container .lado .IconLado{
+    margin-left: 10px;
+    margin-right: 15px;
+    line-height: 40px;
+    font-size: 16px;
+    width: 15px;
+    color: #6C63FF;
+    text-shadow: 0px 0px 30px #6C63FF;
+}
+
+
+.IconLado2{
+    margin-left: 10px;
+    margin-right: 15px;
+    font-size: 16px;
+    line-height: 40px;
+    width: 15px;
+    color: #ff0000;
+    text-shadow: 0px 0px 30px #ff0000;
+}
+
+.TextBLado{
+    margin-top: -20%;
+    margin-left: 41px;
+}
+
+
+.container .lado .separadorLado{
+    width: 90%;
+    height: 0.1%;
+    background: rgb(15,15,15,0.2);
+
+    border-radius: 10px;
+    margin-left: 5%;   
+    margin-top: 5%;
+}
+
+.container .cima{
+    width: 80%;
+    height: 10%;
+    position: absolute;
+    top: 1%;
+    left: 20%;
+}
+
+.container .cima-box{
+    width: 40%;
+    height: 100%;
+    margin-left: 59%;
+}
+
+.container .cima-box img{
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 35px;
+    max-height: 35px;
+    border-radius: 100%;
+    padding: 2px;
+    margin-top: 2.5%;
+    margin-left: 40%;
+    border: 1px solid rgb(15, 134, 4);
+}
+
+.container .cima-box .icon{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-top: 2.7%;
+    margin-left: 10%;
+}
+
+.container .cima-box .quantidade-notify{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 11.5%;
+    background: rgb(233, 110, 9);
+    border-radius: 100%;
+}
+
+.container .cima-box .nome-personagem{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: -8.3%;
+    margin-left: 57%;
+}
+
+.container .cima-box .icon2{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    margin-top: -1.85%;
+    margin-left: 36%;
+}
+
+
+.container .baixo{
+    position: absolute;
+    left: 21%;
+    top: 10%;
+    width: 77%;
+    height: 86%;
+    border-radius: 30px;
+    background: white;
+}
+
+.container .baixo .title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.container #pagina-inicio .aviso-box{
+    width: 90%;
+    height: 100px;
+    margin-top: 2%;
+    border-radius: 10px;
+    margin-left: 5%;
+    background: #f0efef;
+}
+
+.container #pagina-inicio .aviso-box .title-2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 3.5%;
+    margin-left: 2%;
+}
+
+.container #pagina-inicio .aviso-box .desc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.603);
+    font-weight: bold;
+    padding-top: 1%;
+    margin-left: 2%;
+    width: 65%;
+}
+
+.container #pagina-inicio .aviso-box img{
+    width: 80px;
+    margin-top: -12%;
+    margin-left: 80%;
+}
+
+.container #pagina-inicio .contador{
+    margin-left: 3.1%;
+    margin-top: 2%;
+    border-radius: 10px;
+    width: 160px;
+    height: 110px;
+    display: inline-block;
+    border: 4px solid #f0efef;
+    transition: all 1s;
+}
+
+
+.container #pagina-inicio .contador .barra1{
+    width: 20%;
+    background: rgb(189, 33, 228);
+    height: 7%;
+    border-radius: 0px 0px 10px 10px;
+    margin-left: 40%;
+    margin-top: -2%;
+}
+
+.container #pagina-inicio .contador .barra2{
+    width: 20%;
+    background: rgb(189, 33, 228);
+    height: 7%;
+    margin-top: 63.8%;
+    border-radius: 10px 10px 0px 0px;
+    margin-left: 40%;
+}
+
+.container #pagina-inicio .contador .title-contador{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000;
+    margin-top: -48%;
+    text-align: center;
+}
+
+
+.container #pagina-inicio .contador .pulse{
+    width: 10px;
+    height: 10px;
+    margin-left: 70%;
+    margin-top: -14.3%;
+    border-radius: 100%;
+    background: rgb(43, 163, 13);
+    box-shadow: 0 0 0 rgba(43, 163, 13, 0.4);
+    animation: pulse 2s infinite;
+}
+
+
+.container #pagina-inicio .contador .info-contador{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(189, 33, 228);
+    font-size: 15px;
+    text-align: center;
+    margin-top: 13%;
+}
+
+.container #pagina-inicio .logs-box{
+    width: 67%;
+    border-radius: 10px;
+    margin-top: 2%;
+    height: 35%;
+    margin-left: 5%;
+    background: #f0efef;
+}
+
+.container #pagina-inicio .logs-box #opacity{
+    position: absolute;
+    width: 140px;
+    margin-left: 35%;
+    opacity: 0.3;
+}
+
+.container #pagina-inicio .logs-box .title-log-box{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000;
+    margin-left: 5%;
+    padding-top: 3%;
+}
+
+.container #pagina-inicio .logs-box .logs-box2{
+    width: 90%;
+    height: 75%;
+    overflow: auto;
+    margin-left: 5%;
+}
+
+.container #pagina-inicio .logs-box .logs-box2 .item-logs{
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    margin-top: 2%;
+    position: relative;
+    background: white;
+}
+
+.container #pagina-inicio .logs-box .logs-box2 .item-logs .identificador{
+    border-radius: 0px 10px 10px 0px;
+    background: rgb(33, 150, 228);
+    width: 1%;
+    height: 60%;
+    position: relative;
+    top: 20%;
+
+}
+
+.container #pagina-inicio .logs-box .logs-box2 .item-logs img{
+    min-width: 35px;
+    max-width: 35px;
+    min-height: 30px;
+    max-height: 30px;
+    border-radius: 100%;
+    margin-top: -4%;
+    margin-left: 4%;
+}
+
+.container #pagina-inicio .logs-box .logs-box2 .item-logs .nome{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -4.3%;
+    margin-left: 13%;
+    font-size: 13px;
+    color: #000;
+}
+
+.container #pagina-inicio .logs-box .logs-box2 .item-logs .separador{
+    width: 13%;
+    height: 5%;
+    border-radius: 10px;
+    margin-top: -1.7%;
+    margin-left: 40%;
+}
+
+.container #pagina-inicio .logs-box .logs-box2 .item-logs .motivo{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -1.9%;
+    margin-left: 60%;
+    font-size: 13px;
+    color: #000;
+}
+
+.container #pagina-inicio .teleport-box{
+    width: 20%;
+    border-radius: 10px;
+    margin-top: -23.1%;
+    height: 35%;
+    margin-left: 75%;
+    background: #f0efef;
+}
+
+
+.container #pagina-inicio .teleport-box .title-teleport-box{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    padding-top: 11%;
+}
+
+.container #pagina-inicio .teleport-box .adicionar-teleport{
+    width: 80%;
+    margin-top: 2%;
+    margin-left: 10%;
+    height: 20px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    line-height: 20px;
+    margin-top: 3.5%;
+    background: rgb(33, 150, 228);
+}
+
+.container #pagina-inicio .teleport-box .telport-box-2{
+    width: 90%;
+    height: 65%;
+    overflow: auto;
+    margin-left: 5%;
+}
+
+.container #pagina-inicio .teleport-box .telport-box-2 .item-teleport{
+    width: 99%;
+    height: 30px;
+    background: white;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+
+.container #pagina-inicio .teleport-box .telport-box-2 .item-teleport .nome-teleort{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-left: 8%;
+    line-height: 30px;
+    color: #000;
+}
+
+.container #pagina-inicio .teleport-box .telport-box-2 .item-teleport .icontrash{
+    font-size: 11px;
+    color: rgb(255, 117, 117);
+    margin-top: -12.5%;
+    margin-left: 87%;
+    transition: ease-in .7s;
+}
+
+.container #pagina-inicio .teleport-box .telport-box-2 .item-teleport .icontrash:hover{
+    transform: scale(1.3);
+}
+
+
+.container #pagina-inicio .aviso-box{
+    width: 90%;
+    height: 100px;
+    margin-top: 2%;
+    border-radius: 10px;
+    margin-left: 5%;
+    background: #f0efef;
+}
+
+.detalhes{
+    color: #6C63FF;
+    text-shadow: 0px 0px 30px #6C63FF;  
+}
+
+/* -----------------------------------------------------------
+-- Pagina Controle
+----------------------------------------------------------- */
+
+.search-bar{
+    position: absolute;
+    left: 32%;
+    top: 6.5%;
+    height: 40px;
+    width: 20%;
+    border-radius: 5px;
+    background: rgb(0, 0, 0,0.1);
+}
+
+.search-bar .fa-search{
+    width: 5%;
+    font-size: 20px;
+    margin-left: 5%;
+    line-height: 40px;
+    color: #6C63FF;
+    text-shadow: 0px 0px 30px #6C63FF;  
+}
+
+.search-bar #searchInput{
+    width: 78%;
+    height: 100%;
+    margin-left: 8%;
+    background: transparent;
+    outline: 0;
+    border: 0;
+    position: relative;
+    top: -5%;
+}
+
+
+
+.container #pagina-controle .aviso-box{
+    width: 90%;
+    height: 100px;
+    margin-top: 2%;
+    border-radius: 10px;
+    margin-left: 5%;
+    background: #f0efef;
+}
+
+.container #pagina-controle .aviso-box .title-2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 3.5%;
+    margin-left: 2%;
+}
+
+.container #pagina-controle .aviso-box .desc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.603);
+    font-weight: bold;
+    padding-top: 1%;
+    margin-left: 2%;
+    width: 65%;
+}
+
+.container #pagina-controle .aviso-box img{
+    width: 80px;
+    margin-top: -12.5%;
+    margin-left: 76%;
+}
+
+.container #pagina-controle .controle-box{
+    width: 90%;
+    height: 60%;
+    margin-top: 2%;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+
+.container #pagina-controle .controle-box .controle-header{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px 10px 0px 0px;
+    background: #f0efef;
+}
+
+.container #pagina-controle .controle-box .controle-header .item-header{
+    width: 30%;
+    height: 100%;  
+    text-align: center;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.container #pagina-controle .controle-box .controle-header .icon6{
+    margin-left: 8px;
+}
+
+.container #pagina-controle .controle-box .box-controle{
+    width: 100%;
+    height: 85%;
+    overflow: auto;
+}
+
+.container #pagina-controle .controle-box .box-controle .item-controle{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background: #f0efef;
+    margin-top: 2%;
+    
+}
+
+.container #pagina-controle .controle-box .box-controle .item-controle .item-header{
+    width: 30%;
+    height: 100%;  
+    text-align: center;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.container #pagina-controle .controle-box .box-controle .item-controle .item-header2{
+    width: 30%;
+    height: 100%;  
+    text-align: center;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: -5.2%;
+    margin-left: 8.5%;
+ 
+}
+
+.container #pagina-controle .controle-box .box-controle .item-controle .item-header2 img{
+    min-width: 30px;
+    max-width: 30px;
+    min-height: 25px;
+    max-height: 25px;
+    border-radius: 100%;
+    margin-left: -70%;
+    margin-top: 3%;
+}
+
+
+.container #pagina-controle .controle-box .box-controle .item-controle .item-header2 .nome-controle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: -14.3%;
+}
+
+
+
+.container #pagina-controle .controle-box .box-controle .item-controle .item-header3{
+    width: 22%;
+    height: 100%;  
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: -5.2%;
+    margin-left: 39%;
+    
+}
+
+.container #pagina-controle .controle-box .box-controle .item-controle .item-header3 .status {
+    width: 80%;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 10%;
+    margin-top: 3%;
+    text-align: center;
+    background: rgb(68, 204, 97,0.3);
+    color: rgb(68, 204, 97);
+    border-radius: 5px;
+}
+
+
+.container #pagina-controle .controle-box .box-controle .item-controle .item-header4{
+    width: 38%;
+    height: 100%;  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: -5.8%;
+    margin-left: 61.5%;  
+}
+
+.container #pagina-controle .controle-box .box-controle .item-controle .iconheader{
+    color: rgba(0, 0, 0, 0.4);
+    margin-left: 4%;
+    display: inline-block;
+    font-size: 17px;
+    margin-top: 3.5%;
+    transition: all 1s;
+}
+
+.container #pagina-controle .controle-box .box-controle .item-controle .iconheader:hover{
+    color: rgba(121, 53, 230, 0.7);
+}
+
+/* -----------------------------------------------------------
+-- Notify de Aviso
+----------------------------------------------------------- */
+
+.avisoC{
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 2%;
+    background: #f0efef;
+    animation-name: appear;
+    animation-duration: 1s;
+    animation-fill-mode: backwards; 
+}
+
+
+.avisoC img{
+    position: absolute;
+    width: 90px;
+    opacity: 0.6;
+    margin-left: 68%;
+}
+
+.avisoC .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-top: 10%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.avisoC .text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0,0.6);
+    padding-top: 2%;
+    width: 80%;
+    margin-left: 5%;
+}
+
+
+/* -----------------------------------------------------------
+-- Pagina Punicoes
+----------------------------------------------------------- */
+
+.container #pagina-punicoes .aviso-box{
+    width: 90%;
+    height: 100px;
+    margin-top: 2%;
+    border-radius: 10px;
+    margin-left: 5%;
+    background: #f0efef;
+}
+
+.container #pagina-punicoes .aviso-box .title-2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 3.5%;
+    margin-left: 2%;
+}
+
+.container #pagina-punicoes .aviso-box .desc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.603);
+    font-weight: bold;
+    padding-top: 1%;
+    margin-left: 2%;
+    width: 65%;
+}
+
+.container #pagina-punicoes .aviso-box img{
+    width: 80px;
+    margin-top: -12%;
+    margin-left: 76%;
+}
+
+.container #pagina-punicoes .controle-box{
+    width: 90%;
+    height: 60%;
+    margin-top: 2%;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+
+.container #pagina-punicoes .controle-box .controle-header{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px 10px 0px 0px;
+    background: #f0efef;
+}
+
+.container #pagina-punicoes .controle-box .controle-header .item-header{
+    width: 30%;
+    height: 100%;  
+    text-align: center;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.container #pagina-punicoes .controle-box .controle-header .icon6{
+    margin-left: 8px;
+}
+
+.container #pagina-punicoes .controle-box .box-punicoes{
+    width: 100%;
+    height: 85%;
+    overflow: auto;
+}
+
+.container #pagina-punicoes .controle-box .box-punicoes .item-controle{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background: #f0efef;
+    margin-top: 2%;
+    
+}
+
+.container #pagina-punicoes .controle-box .box-punicoes .item-controle .item-header{
+    width: 30%;
+    height: 100%;  
+    text-align: center;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.container #pagina-punicoes .controle-box .box-punicoes .item-controle .item-header2{
+    width: 30%;
+    height: 100%;  
+    text-align: center;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: -5.2%;
+    margin-left: 8.5%;
+ 
+}
+
+.container #pagina-punicoes .controle-box .box-punicoes .item-controle .item-header2 img{
+    min-width: 30px;
+    max-width: 30px;
+    min-height: 25px;
+    max-height: 25px;
+    border-radius: 100%;
+    margin-left: -70%;
+    margin-top: 3%;
+}
+
+.container #pagina-punicoes .controle-box .box-punicoes .item-controle .item-header2 .nome-controle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: -14.3%;
+}
+
+.container #pagina-punicoes .controle-box .box-punicoes .item-controle .item-header3{
+    width: 22%;
+    height: 100%;  
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: -5.2%;
+    margin-left: 39%;
+    
+}
+
+.container #pagina-punicoes .controle-box .box-punicoes .item-controle .item-header3 .status {
+    width: 80%;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 10%;
+    margin-top: 3%;
+    text-align: center;
+    background: #cc44444d;
+    color: #cc4444;
+    border-radius: 5px;
+}
+
+
+.container #pagina-punicoes .controle-box .box-punicoes .item-controle .item-header4{
+    width: 38%;
+    height: 100%;  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: -5.8%;
+    margin-left: 61.5%;  
+}
+
+.container #pagina-punicoes .controle-box .box-punicoes .item-controle .iconheader{
+    color: rgba(0, 0, 0, 0.4);
+    margin-left: 4%;
+    display: inline-block;
+    font-size: 17px;
+    margin-top: 3.5%;
+    transition: all 1s;
+}
+
+.container #pagina-punicoes .controle-box .box-punicoes .item-controle .iconheader:hover{
+    color: rgba(121, 53, 230, 0.7);
+}
+
+/* -----------------------------------------------------------
+-- Pagina Tickets
+----------------------------------------------------------- */
+
+.container #pagina-tickets .aviso-box{
+    width: 90%;
+    height: 100px;
+    margin-top: 2%;
+    border-radius: 10px;
+    margin-left: 5%;
+    background: #f0efef;
+}
+
+.container #pagina-tickets .aviso-box .title-2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 3.5%;
+    margin-left: 2%;
+}
+
+.container #pagina-tickets .aviso-box .desc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.603);
+    font-weight: bold;
+    padding-top: 1%;
+    margin-left: 2%;
+    width: 65%;
+}
+
+.container #pagina-tickets .aviso-box img{
+    width: 160px;
+    margin-top: -10%;
+    margin-left: 80%;
+}
+
+.container #pagina-tickets .controle-box{
+    width: 90%;
+    height: 60%;
+    margin-top: 2%;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+
+.container #pagina-tickets .controle-box .controle-header{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px 10px 0px 0px;
+    background: #f0efef;
+}
+
+.container #pagina-tickets .controle-box .controle-header .item-header{
+    width: 30%;
+    height: 100%;  
+    text-align: center;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.container #pagina-tickets .controle-box .controle-header .icon6{
+    margin-left: 8px;
+}
+
+.container #pagina-tickets .controle-box .box-tickets{
+    width: 100%;
+    height: 85%;
+    overflow: auto;
+}
+
+.container #pagina-tickets .controle-box .box-tickets .item-controle{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background: #f0efef;
+    margin-top: 2%;
+    
+}
+
+.container #pagina-tickets .controle-box .box-tickets .item-controle .item-header{
+    width: 30%;
+    height: 100%;  
+    text-align: center;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.container #pagina-tickets .controle-box .box-tickets .item-controle .item-header2{
+    width: 30%;
+    height: 100%;  
+    text-align: center;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: -5.2%;
+    margin-left: 8.5%;
+ 
+}
+
+.container #pagina-tickets .controle-box .box-tickets .item-controle .item-header2 img{
+    min-width: 30px;
+    max-width: 30px;
+    min-height: 25px;
+    max-height: 25px;
+    border-radius: 100%;
+    margin-left: -70%;
+    margin-top: 3%;
+}
+
+.container #pagina-tickets .controle-box .box-tickets .item-controle .item-header2 .nome-controle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: -14.3%;
+}
+
+.container #pagina-tickets .controle-box .box-tickets .item-controle .item-header3{
+    width: 22%;
+    height: 100%;  
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: -5.2%;
+    margin-left: 39%;
+    
+}
+
+.container #pagina-tickets .controle-box .box-tickets .item-controle .item-header3 .status {
+    width: 80%;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 10%;
+    margin-top: 3%;
+    text-align: center;
+    background: #cc44444d;
+    color: #cc4444;
+    border-radius: 5px;
+}
+
+
+.container #pagina-tickets .controle-box .box-tickets .item-controle .item-header4{
+    width: 38%;
+    height: 100%;  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: -5.8%;
+    margin-left: 61.5%;  
+}
+
+.container #pagina-tickets .controle-box .box-tickets .item-controle .iconheader{
+    color: rgba(0, 0, 0, 0.4);
+    margin-left: 4%;
+    display: inline-block;
+    font-size: 17px;
+    margin-top: 3.5%;
+    transition: all 1s;
+}
+
+.container #pagina-tickets .controle-box .box-tickets .item-controle .iconheader:hover{
+    color: rgba(121, 53, 230, 0.7);
+}
+
+
+
+
+
+/* -----------------------------------------------------------
+-- Pagina Pegar Itens
+----------------------------------------------------------- */
+
+.container #pagina-pegarItens .aviso-box{
+    width: 90%;
+    height: 100px;
+    margin-top: 2%;
+    border-radius: 10px;
+    margin-left: 5%;
+    background: #f0efef;
+}
+
+.container #pagina-pegarItens .aviso-box .title-2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 3.5%;
+    margin-left: 2%;
+}
+
+.container #pagina-pegarItens .aviso-box .desc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.603);
+    font-weight: bold;
+    padding-top: 1%;
+    margin-left: 2%;
+    width: 65%;
+}
+
+.container #pagina-pegarItens .aviso-box img{
+    width: 80px;
+    margin-top: -12%;
+    margin-left: 76%;
+}
+
+
+.container #pagina-pegarItens .itens-overflow{
+    width: 90%;
+    height: 60%;
+    margin-left: 5%;
+    margin-top: 2%;
+    overflow: auto;
+}
+
+
+.container #pagina-pegarItens .item-inventario{
+    background: #f0efef;
+    width: 95px;
+    height: 95px;
+    display: inline-block;
+    margin-left: 1%;
+    margin-top: 2%;
+    border-radius: 10px;
+    transition: ease-in .7s;
+}
+
+.container #pagina-pegarItens .item-inventario .barra1{
+    width: 50%;
+    height: 6px;
+    border-radius: 10px 10px 0px 0px;
+    background: #e42121;
+    margin-left: 25%;
+    margin-top: -5%;
+}
+
+.container #pagina-pegarItens .nome-inventario{
+    text-align: center;
+    padding-top: 7px;
+    font-size: 12px;
+    max-width: 15ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.container #pagina-pegarItens #img-2{
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 35px;
+    max-height: 35px;
+    margin-left: 30%;
+    margin-top: 9%;
+}
+
+.container #pagina-pegarItens .quantidade-item{
+    text-align: center;
+    padding-top: 2px;
+    font-size: 12px;
+}
+
+
+
+/* -----------------------------------------------------------
+-- Pagina Garagem
+----------------------------------------------------------- */
+
+.container #pagina-SetCarros .aviso-box{
+    width: 90%;
+    height: 100px;
+    margin-top: 2%;
+    border-radius: 10px;
+    margin-left: 5%;
+    background: #f0efef;
+}
+
+.container #pagina-SetCarros .aviso-box .title-2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 3.5%;
+    margin-left: 2%;
+}
+
+.container #pagina-SetCarros .aviso-box .desc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.603);
+    font-weight: bold;
+    padding-top: 1%;
+    margin-left: 2%;
+    width: 65%;
+}
+
+.container #pagina-SetCarros .aviso-box #img-1{
+    width: 80px;
+    margin-top: -10%;
+    margin-left: 76%;
+}
+
+
+.container #pagina-SetCarros .garagem-overflow{
+    width: 90%;
+    height: 60%;
+    margin-left: 5%;
+    margin-top: 2%;
+    overflow: auto;
+}
+
+
+.container #pagina-SetCarros .item-garagem{
+    background: #f0efef;
+    width: 95px;
+    height: 95px;
+    display: inline-block;
+    margin-left: 1%;
+    margin-top: 2%;
+    border-radius: 10px;
+    transition: ease-in .7s;
+}
+
+.container #pagina-SetCarros .item-garagem .barra1{
+    width: 50%;
+    height: 6px;
+    border-radius: 10px 10px 0px 0px;
+    background: #e42121;
+    margin-top: -10%;
+    margin-left: 25%;
+}
+
+.container #pagina-SetCarros .nome-garagem{
+    text-align: center;
+    padding-top: 7px;
+    font-size: 12px;
+    max-width: 15ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.container #pagina-SetCarros #img-2{
+    min-width: 60px;
+    max-width: 60px;
+    min-height: 35px;
+    max-height: 35px;
+    margin-left: 18.5%;
+    margin-top: 9%;
+}
+
+.container #pagina-SetCarros .quantidade-item{
+    text-align: center;
+    padding-top: 2px;
+    font-size: 12px;
+}
+
+/* -----------------------------------------------------------
+-- Pagina Garagem
+----------------------------------------------------------- */
+
+.container #pagina-Anuncios .aviso-box{
+    width: 90%;
+    height: 100px;
+    margin-top: 2%;
+    border-radius: 10px;
+    margin-left: 5%;
+    background: #f0efef;
+}
+
+.container #pagina-Anuncios .aviso-box .title-2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 3.5%;
+    margin-left: 2%;
+}
+
+.container #pagina-Anuncios .aviso-box .desc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.603);
+    font-weight: bold;
+    padding-top: 1%;
+    margin-left: 2%;
+    width: 65%;
+}
+
+.container #pagina-Anuncios .aviso-box #img-1{
+    width: 170px;
+    margin-top: -10%;
+    margin-left: 76%;
+}
+
+
+
+.criar-anuncio{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background: rgb(26, 26, 26);
+    margin-top: 2%;
+    margin-left: 5%;
+    transition: all 1s;
+}
+
+.criar-anuncio:hover{
+    transform: scale(1.05);
+}
+
+
+.box-anuncios-list{
+    width: 90%;
+    height: 50%;
+    margin-left: 5%;
+    margin-top: 0%;
+    overflow: auto;
+}
+
+.item-anuncio{
+    width: 100%;
+    background: #f0efef;
+    border-radius: 10px;
+    height: 80px;
+    margin-top: 2%;
+}
+
+.title-anuncio{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-top: 2%;
+    margin-left: 4%;
+    color: #000;
+    font-weight: bold;
+}
+
+
+.desc-anuncio{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-top: 1%;
+    margin-left: 4%;
+    width: 80%;
+    color: rgba(0, 0, 0, 0.603);
+}
+
+.anuncios-lista{
+    width: 90%;
+    height: 50%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+
+.container .baixo{
+    position: absolute;
+    left: 21%;
+    top: 10%;
+    width: 77%;
+    height: 86%;
+    border-radius: 30px;
+    background: white;
+}
+
+/* -----------------------------------------------------------
+-- Pagina Ver Perfil
+----------------------------------------------------------- */
+
+.container #pagina-VerPerfil .aviso-box{
+    width: 90%;
+    height: 100px;
+    margin-top: 2%;
+    border-radius: 10px;
+    margin-left: 5%;
+    background: #f0efef;
+}
+
+.container #pagina-VerPerfil .aviso-box .title-2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 3.5%;
+    margin-left: 2%;
+}
+
+.container #pagina-VerPerfil .aviso-box .desc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.603);
+    font-weight: bold;
+    padding-top: 1%;
+    margin-left: 2%;
+    width: 65%;
+}
+
+.container #pagina-VerPerfil .aviso-box img{
+    width: 80px;
+    margin-top: -10%;
+    margin-left: 76%;
+}
+
+.container #pagina-VerPerfil .identidade-box{
+    width: 60%;
+    height: 80%;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+.container #pagina-VerPerfil .identidade-box .bannerPersonagem1{
+    width: 80%;
+    height: 34%;
+    margin-top: 3.5%;
+    margin-left: 10%;
+    border-radius: 10px;
+    transition: all 0.4s;
+  }
+
+  .container #pagina-VerPerfil .identidade-box .imgPersonagem1{
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    padding: 2px;
+    outline: 0;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin-top: -18.5%;
+    margin-left: 39.2%;
+    transition: all 0.4s;
+}
+
+.container #pagina-VerPerfil .item-identidade{
+    width: 97%;
+    height: 30px;
+    margin-top: 3%;
+}
+ 
+.container #pagina-VerPerfil .iconIdentidade{
+    color: #6C63FF;
+    text-shadow: 0px 0px 30px #6C63FF;  
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.container #pagina-VerPerfil .barrinha{
+    width: 1%;
+    height: 100%;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+}
+  
+.container #pagina-VerPerfil .infos-identidade{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    
+    width: 100%;
+    margin-left: 2%;
+    margin-top: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #000;
+}
+
+.container #pagina-VerPerfil .identidadePart2{
+    width: 80%;
+    height: 60%;
+    margin-left: 10%;
+    margin-top: -2%;
+}
+
+.container #pagina-VerPerfil .nomePersonagem1{
+    color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+.container #pagina-VerPerfil .empregoPersonagem1{
+    color: #6C63FF;
+    text-shadow: 0px 0px 30px #6C63FF;  
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 1%;
+}
+
+.container #pagina-VerPerfil .opcoes-box{
+    width: 32.5%;
+    height: 80%;
+    margin-top: -51%;
+    margin-left: 62.5%;
+}
+
+.container #pagina-VerPerfil .op-item{
+    width: 100%;
+    height: 28%;
+    border-radius: 10px;
+    margin-top: 4%;
+    transition: all 1s;
+}
+
+.container #pagina-VerPerfil .op-item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.container #pagina-VerPerfil .op-item .sopre-imagem{
+    width: 100%;
+    height: 100%;
+    background: rgb(15, 15, 15,0.6);
+    border-radius: 10px;
+    margin-top: -45%;
+    position: relative;
+    transition: all 1s;
+}
+
+.container #pagina-VerPerfil .op-item:hover{
+    transform: scale(1.02);
+}
+
+.container #pagina-VerPerfil .op-item .sopre-imagem .textCenterImg{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 28px;
+    letter-spacing: 1px;
+    line-height: 125px;
+}
+
+.container #pagina-VerPerfil .separadorOpc{
+    width: 90%;
+    height: 0.1%;
+    background: rgb(15,15,15,0.2);
+    border-radius: 10px;
+    margin-left: 5%;   
+    margin-top: 13%;
+}
+
+.container #pagina-VerPerfil .opcoesRapidas-box{
+    width: 90%;
+    height: 110%;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.container #pagina-VerPerfil .opcoesRapidas-box .titleOpcoesRapidas{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container #pagina-VerPerfil .opcoesRapidas-box .box-OpcoesRAP{
+    width: 31.5%;
+    height: 75px;
+    border-radius: 5px;
+    background: rgb(0, 0, 0,0.1);
+    margin-left: 2%;
+    margin-top: 2%;
+    display: inline-block;
+    transition: all 1s;
+}
+
+.container #pagina-VerPerfil .opcoesRapidas-box .box-OpcoesRAP:hover{
+    background: rgb(0, 0, 0,0.3);
+}
+
+.container #pagina-VerPerfil .opcoesRapidas-box .titleItemOpc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 7%;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.container #pagina-VerPerfil .opcoesRapidas-box .IconItemOpc{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #6C63FF;
+    text-shadow: 0px 0px 30px #6C63FF;  
+}
+
+.container #pagina-VerPerfil .opcoesRapidas-box .descItemOpc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(0, 0, 0,0.3);
+    margin-top: 1%;
+    font-weight: bold;
+    margin-left: 8%;
+}
+
+.container #pagina-VerPerfil .RegistroGrupos{
+    width: 90%;
+    height: 55%;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.container #pagina-VerPerfil .titleOpcoesRapidas{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------------------------
+-- Pagina Ver Baus
+----------------------------------------------------------- */
+
+
+.container #pagina-Baus .aviso-box{
+    width: 90%;
+    height: 100px;
+    margin-top: 2%;
+    border-radius: 10px;
+    margin-left: 5%;
+    background: #f0efef;
+}
+
+.container #pagina-Baus .aviso-box .title-2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 3.5%;
+    margin-left: 2%;
+}
+
+.container #pagina-Baus .aviso-box .desc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.603);
+    font-weight: bold;
+    padding-top: 1%;
+    margin-left: 2%;
+    width: 65%;
+}
+
+.container #pagina-Baus .aviso-box img{
+    width: 80px;
+    margin-top: -10%;
+    margin-left: 76%;
+}
+
+
+
+
+.container #pagina-Baus .baus-box{
+    width: 90%;
+    height: 60%;
+    margin-top: 2%;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+
+.container #pagina-Baus .baus-box .baus-header{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px 10px 0px 0px;
+    background: #f0efef;
+}
+
+.container #pagina-Baus .baus-box .baus-header .item-header{
+    width: 30%;
+    height: 100%;  
+    text-align: center;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.container #pagina-Baus .baus-box .baus-header .icon6{
+    margin-left: 8px;
+}
+
+.container #pagina-Baus .baus-box .box-baus{
+    width: 100%;
+    height: 85%;
+    overflow: auto;
+}
+
+.container #pagina-Baus .baus-box .box-baus .item-baus{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background: #f0efef;
+    margin-top: 2%;
+    
+}
+
+.container #pagina-Baus .baus-box .box-baus .item-baus .item-header{
+    width: 30%;
+    height: 100%;  
+    text-align: center;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.container #pagina-Baus .baus-box .box-baus .item-baus .item-header2{
+    width: 30%;
+    height: 100%;  
+    text-align: center;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: -5.2%;
+    margin-left: 8.5%;
+ 
+}
+
+.container #pagina-Baus .baus-box .box-baus .item-baus .item-header2 img{
+    min-width: 30px;
+    max-width: 30px;
+    min-height: 25px;
+    max-height: 25px;
+    border-radius: 100%;
+    margin-left: -70%;
+    margin-top: 3%;
+}
+
+
+.container #pagina-Baus .baus-box .box-baus .item-baus .item-header2 .nome-baus{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: -14.3%;
+}
+
+
+
+.container #pagina-Baus .baus-box .box-baus .item-baus .item-header3{
+    width: 22%;
+    height: 100%;  
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: -5.2%;
+    margin-left: 39%;
+    
+}
+
+.container #pagina-Baus .baus-box .box-baus .item-baus .item-header3 .status {
+    width: 80%;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 10%;
+    margin-top: 3%;
+    text-align: center;
+    background: rgba(255, 99, 99, 0.3);
+    color: rgb(255, 99, 99);
+    border-radius: 5px;
+}
+
+
+.container #pagina-Baus .baus-box .box-baus .item-baus .item-header4{
+    width: 38%;
+    height: 100%;  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: -5.8%;
+    margin-left: 61.5%;  
+}
+
+.container #pagina-Baus .baus-box .box-baus .item-baus .iconheader{
+    color: rgba(0, 0, 0, 0.4);
+    margin-left: 4%;
+    display: inline-block;
+    font-size: 17px;
+    margin-top: 3.5%;
+    transition: all 1s;
+}
+
+.container #pagina-Baus .baus-box .box-baus .item-baus .iconheader:hover{
+    color: rgba(121, 53, 230, 0.7);
+}
+
+/* -----------------------------------------------------------
+-- Pagina Gerenciar
+----------------------------------------------------------- */
+
+
+.container #pagina-gerenciar .aviso-box{
+    width: 90%;
+    height: 100px;
+    margin-top: 2%;
+    border-radius: 10px;
+    margin-left: 5%;
+    background: #f0efef;
+}
+
+.container #pagina-gerenciar .aviso-box .title-2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 3.5%;
+    margin-left: 2%;
+}
+
+.container #pagina-gerenciar .aviso-box .desc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.603);
+    font-weight: bold;
+    padding-top: 1%;
+    margin-left: 2%;
+    width: 65%;
+}
+
+.container #pagina-gerenciar .aviso-box img{
+    width: 80px;
+    margin-top: -10%;
+    margin-left: 76%;
+}
+
+
+
+
+.container #pagina-gerenciar .gerenciar-box{
+    width: 90%;
+    height: 60%;
+    margin-top: 2%;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+
+.container #pagina-gerenciar .gerenciar-box .gerenciar-header{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px 10px 0px 0px;
+    background: #f0efef;
+}
+
+.container #pagina-gerenciar .gerenciar-box .gerenciar-header .item-header{
+    width: 30%;
+    height: 100%;  
+    text-align: center;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.container #pagina-gerenciar .gerenciar-box .gerenciar-header .icon6{
+    margin-left: 8px;
+}
+
+.container #pagina-gerenciar .gerenciar-box .box-gerenciar{
+    width: 100%;
+    height: 85%;
+    overflow: auto;
+}
+
+.container #pagina-gerenciar .gerenciar-box .box-gerenciar .item-gerenciar{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background: #f0efef;
+    margin-top: 2%;
+    
+}
+
+.container #pagina-gerenciar .gerenciar-box .box-gerenciar .item-gerenciar .item-header{
+    width: 30%;
+    height: 100%;  
+    text-align: center;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.container #pagina-gerenciar .gerenciar-box .box-gerenciar .item-gerenciar .item-header2{
+    width: 30%;
+    height: 100%;  
+    text-align: center;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: -5.2%;
+    margin-left: 8.5%;
+ 
+}
+
+.container #pagina-gerenciar .gerenciar-box .box-gerenciar .item-gerenciar .item-header2 img{
+    min-width: 30px;
+    max-width: 30px;
+    min-height: 25px;
+    max-height: 25px;
+    border-radius: 100%;
+    margin-left: -70%;
+    margin-top: 3%;
+}
+
+
+.container #pagina-gerenciar .gerenciar-box .box-gerenciar .item-gerenciar .item-header2 .nome-gerenciar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: -14.3%;
+}
+
+
+
+.container #pagina-gerenciar .gerenciar-box .box-gerenciar .item-gerenciar .item-header3{
+    width: 22%;
+    height: 100%;  
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: -5.2%;
+    margin-left: 39%;
+    
+}
+
+.container #pagina-gerenciar .gerenciar-box .box-gerenciar .item-gerenciar .item-header3 .status {
+    width: 80%;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 10%;
+    margin-top: 3%;
+    text-align: center;
+    background: rgb(108, 99, 255,0.3); 
+    color: #6C63FF; 
+    border-radius: 5px;
+}
+
+
+.container #pagina-gerenciar .gerenciar-box .box-gerenciar .item-gerenciar .item-header4{
+    width: 38%;
+    height: 100%;  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: -5.8%;
+    margin-left: 61.5%;  
+}
+
+.container #pagina-gerenciar .gerenciar-box .box-gerenciar .item-gerenciar .iconheader{
+    color: rgba(0, 0, 0, 0.4);
+    margin-left: 4%;
+    display: inline-block;
+    font-size: 17px;
+    margin-top: 3.5%;
+    transition: all 1s;
+}
+
+.container #pagina-gerenciar .gerenciar-box .box-gerenciar .item-gerenciar .iconheader:hover{
+    color: rgba(121, 53, 230, 0.7);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar{
+	width: 5px;
+	height: 3px;
+	background: rgb(255, 255, 255,0.1);
+	border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+	background: #c5c3c3;
+	border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+	background: #a7a4a4;
+}
+::-webkit-scrollbar-track{
+	background: transparent;
+}
+@keyframes appear {
+    from {
+        transform: translateX(-100%);
+    
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+@-webkit-keyframes pulse {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(43, 163, 13, 0.4);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+}
+@keyframes pulse {
+    0% {
+      -moz-box-shadow: 0 0 0 0 rgba(43, 163, 13, 0.4);
+      box-shadow: 0 0 0 0 rgba(43, 163, 13, 0.4);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+        box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+        box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+}
